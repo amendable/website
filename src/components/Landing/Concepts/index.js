@@ -21,7 +21,7 @@ export default ({
   },
 }) => (
   <Container padding paddingTop={5} limited>
-    <Heading fontWeight700 colorLightGrey>
+    <Heading level={1} fontWeight700 colorLightGrey>
       Concepts
     </Heading>
 
@@ -40,7 +40,7 @@ export default ({
       </MoreLink>
     </Concept>
 
-    <Concept title='Converters' code={examples[concept]} icon={NumbersIcon}>
+    <Concept title='Resolvers' code={examples[concept]} icon={NumbersIcon}>
       <Text paddingBottom>
         Ability to convert style values allows you set up app-wide standarts
         for colors, borders, sizes. You can convert:
@@ -51,8 +51,8 @@ export default ({
       <ConverterLink value='sizes' current={concept}>
         Sizes
       </ConverterLink>
-      <MoreLink to='/docs/converters/overview' marginTop={2}>
-        Learn more about converters
+      <MoreLink to='/docs/resolvers/overview' marginTop={2}>
+        Learn more about resolvers
       </MoreLink>
     </Concept>
   </Container>
