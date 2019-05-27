@@ -1,0 +1,6 @@
+<Container
+  fontWeight={700}
+  textAlign='center'
+>
+  It's magic
+</Container>

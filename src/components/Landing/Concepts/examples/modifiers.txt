@@ -1,0 +1,43 @@
+import { render } from 'react-dom'
+import Container, { AmendableProvider } from '@amendable/core'
+import colors from '@amendable/colors'
+import fluidScale from '@amendable/fluid-scale'
+
+const theme = {
+  text: {
+    base: {
+      backgroundColor: 'blue',
+      fontWeight: 700,
+      padding: 1,
+    }
+  },
+  underline: {
+    textDecoration: 'underline',
+  },
+}
+
+const amendableModifiers = ({
+  match = ({ key }) => modifiers[key],
+  modifiers,
+}) => ({
+  match,
+  resolve: ({ key, value }) => modifiers[key],
+})
+
+render(
+  <AmendableProvider
+    resolvers={[
+      modifiers({
+        modifiers: {
+          underline: {
+            textDecoration: 'underline',
+          },
+        },
+      }),
+    ]}
+  >
+    <Container underline>
+      It's magic
+    </Container>
+  </AmendableProvider>
+)

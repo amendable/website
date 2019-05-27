@@ -1,0 +1,20 @@
+import { render } from 'react-dom'
+import Container, { AmendableProvider } from '@amendable/core'
+import colors from '@amendable/colors'
+import inlineStyles from '@amendable/inline-styles'
+
+render(
+  <AmendableProvider
+    resolvers={[
+      colors({ colors: { primary: '#66fcd9' } }),
+      inlineStyles(),
+    ]}
+  >
+    <Container
+      color='primary'
+      fontWeight={700}
+    >
+      Colors
+    </Container>
+  </AmendableProvider>
+)

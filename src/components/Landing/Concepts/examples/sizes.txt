@@ -1,0 +1,23 @@
+import { render } from 'react-dom'
+import Container, { AmendableProvider } from '@amendable/core'
+import colors from '@amendable/colors'
+import fluidScale from '@amendable/fluid-scale'
+import inlineStyles from '@amendable/inline-styles'
+
+render(
+  <AmendableProvider
+    resolvers={[
+      colors({ colors: { primary: '#66fcd9' } }),
+      fluidScale(),
+      inlineStyles(),
+    ]}
+  >
+    <Container
+      backgroundColor='primary'
+      fontWeight={700}
+      padding={1}
+    >
+      Sizes
+    </Container>
+  </AmendableProvider>
+)

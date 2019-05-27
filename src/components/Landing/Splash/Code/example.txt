@@ -1,0 +1,7 @@
+<Container
+  backgroundColor='aqua'
+  padding={1}
+  fontWeight={700}
+>
+  It's magic
+</Container>
