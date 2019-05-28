@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@amendable/colors@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@amendable/colors/-/colors-0.0.1.tgz#efa3296b36da192b95b380d61acc95a0093f962a"
-  integrity sha512-spIFHtaT9Tx06hd8eguOibZIgusa/Kd7aKZiM5tq1XBg0NP3QuEaerBW3qZp1ek4v8iksGdd9PbvLjGiJO706Q==
+"@amendable/colors@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@amendable/colors/-/colors-0.0.3.tgz#434ddd84191472a9502353a8b7084a1df82f64b2"
+  integrity sha512-8Uoxt4sDhR9oHk1nYUhdJ2gi6D8I2889XS3k2yLKmzmJZd3XXrbcT/xZE5XNeILaWIRBlDZ7E2wBHywY1/aFTA==
 
 "@amendable/core@^0.0.1":
   version "0.0.1"
@@ -2435,20 +2435,6 @@ candour-custom@^2.0.0:
   dependencies:
     lodash "^4.17.11"
 
-candour-fluid-steps@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/candour-fluid-steps/-/candour-fluid-steps-2.0.0.tgz#823dd0c81b61f64d93130301217d2c0af5a5839c"
-  integrity sha512-EhK8s/7scHIHr6+NiE8xmR7gPLqgDEOqvs8OscHJgJjOLQfP2RM7xVTo65nybEP7TsORm5zee/eFevfQGoo1xA==
-  dependencies:
-    candour-step "^2.0.3"
-    is-number "^7.0.0"
-    lodash "^4.17.11"
-
-candour-fluid@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/candour-fluid/-/candour-fluid-1.0.12.tgz#44d41fc70bf3aa30f8b061134683191ead41c7c3"
-  integrity sha512-seo/SoFqGpd71iMYHQj/EUgvyH4PlU5KmMWxpbl2/qN7xe6PuuqpdS1bEqgcZN0BYIbGgK5EcVxw/Ih/QM6mRg==
-
 candour-font-families@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/candour-font-families/-/candour-font-families-2.0.0.tgz#04d52d7395cba1268d17eee33b512257a2728d43"
@@ -2462,13 +2448,6 @@ candour-normalize@^1.0.3:
   integrity sha512-a6m6HevhSCDcbzfqLVHsj00wwpChYf6Uy+Mga0oetc5wEse1eNN9Jcp3W6qzC9AEfnaHRqh8nboWUGso7CEJpQ==
   dependencies:
     radium "^0.25.0"
-
-candour-step@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/candour-step/-/candour-step-2.0.3.tgz#7647a2c533238a5fa46a6d6a538512ef9c165814"
-  integrity sha512-jMM6CVeWs3NqgwpitQGqqv1udTKmwQJCn0SWb1D9r+TmOlsIQ9byqln4akfmYeRSbakCADTNy4Ja+xBf1Pe7ag==
-  dependencies:
-    candour-fluid "^1.0.12"
 
 candour@^5.4.0:
   version "5.4.0"

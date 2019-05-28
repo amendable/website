@@ -6,7 +6,6 @@ import Container from '@amendable/core'
 import { Link as RouterLink } from 'react-router-dom'
 import Code from './Code/index'
 import Point from './Point/index'
-import Heading from '../../Heading'
 import Button from '../../Button'
 
 export default (props) => {

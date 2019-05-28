@@ -7,11 +7,9 @@ import Concept from './Concept'
 import ConverterLink from './ConverterLink'
 import MoreLink from './MoreLink'
 import styleProps from './examples/style-props.txt'
-import theme from './examples/theme.txt'
 import examples from './examples/index'
 import { ReactComponent as CircleIcon } from '../../../assets/circle.svg'
 import { ReactComponent as NumbersIcon } from '../../../assets/numbers.svg'
-import { ReactComponent as ThemeIcon } from '../../../assets/theme.svg'
 
 export default ({
   match: {

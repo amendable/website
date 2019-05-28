@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@amendable/colors": "^0.0.1",
+    "@amendable/colors": "^0.0.3",
     "@amendable/core": "^0.0.1",
     "@amendable/fluid-scale": "^0.0.2",
     "@amendable/inline-styles": "^0.0.1",

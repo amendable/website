@@ -1,5 +1,5 @@
 import React from 'react'
-import Container, { useAmendable } from '@amendable/core'
+import { useAmendable } from '@amendable/core'
 import {
   useBreakpoints,
 } from 'candour'

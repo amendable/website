@@ -12,14 +12,6 @@ const collection = ({ match, collection }) => ({
   })
 })
 
-const amendableModifiers = ({
-  match = ({ key }) => modifiers[key],
-  modifiers,
-}) => ({
-  match,
-  resolve: ({ key, value }) => modifiers[key],
-})
-
 const trueToOne = (match, config) => ({
   match: ({ value }) => (
     value === true
@@ -44,6 +36,14 @@ const modifiers = {
     maxWidth: '768px',
   },
 }
+
+const amendableModifiers = ({
+  match = ({ key }) => modifiers[key],
+  modifiers,
+}) => ({
+  match,
+  resolve: ({ key, value }) => modifiers[key],
+})
 
 const levels = () => ({
   match: ({ key }) => (
