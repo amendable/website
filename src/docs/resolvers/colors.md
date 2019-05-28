@@ -9,17 +9,21 @@ reuse them easily.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import { CandourProvider, Heading } from 'candour'
-import colors from 'candour-colors'
+import Container, { AmendableProvider } from '@amendable/core'
+import colors from '@amendable/colors'
+import inlineStyles from '@amendable/inline-styles'
 
 render(
-  <CandourProvider
-    converters={[colors({ raddish: '#D41E5C', red: '#F5BCCF' })]}
+  <AmendableProvider
+    resolvers={[
+      colors({ colors: { raddish: '#D41E5C', red: '#F5BCCF' } }),
+      inlineStyles(),
+    ]}
   >
-    <Heading colorRaddish backgroundColor='red'>
+    <Container color='raddish' backgroundColor='red'>
       Raddish color
-    </Heading>
-  </CandourProvider>
+    </Container>
+  </AmendableProvider>
 )
 ```
 

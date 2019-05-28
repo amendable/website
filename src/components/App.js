@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'candour'
+import Container from '@amendable/core'
 import {
   BrowserRouter as Router,
   Switch,

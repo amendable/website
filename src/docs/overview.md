@@ -7,7 +7,7 @@ for React.
 
 **Core features:**
 - Nothing to learn [inline style API](/docs/style-props/usage)
-- [Redefine](/docs/converters/overview) CSS values and
+- [Redefine](/docs/resolvers/overview) CSS values and
 [modify](/docs/theme/modifiers) component styles
 - Maintain a consistent component [theme](/docs/theme/base)
 
@@ -16,10 +16,15 @@ import { render } from 'react-dom'
 import Container, { AmendableProvider } from '@amendable/core'
 import fluidScale from '@amendable/fluid-scale'
 import colors from '@amendable/colors'
+import inlineStyles from '@amendable/inline-styles'
 
 render(
   <AmendableProvider
-    converters={[fluidScale(), colors({ colors: { aqua: '#66fcd9' } })]}
+    resolvers={[
+      fluidScale(),
+      colors({ colors: { aqua: '#66fcd9' } }),
+      inlineStyles(),
+    ]}
   >
     <Container backgroundColor='aqua' fontWeight={700} padding={2}>
       Amendable

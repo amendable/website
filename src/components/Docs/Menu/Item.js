@@ -1,7 +1,8 @@
 import React from 'react'
 import _ from 'lodash'
-import { Container, Link } from 'candour'
+import Container from '@amendable/core'
 import { Link as RouterLink } from 'react-router-dom'
+import Link from '../../Link'
 
 import Items from './Items'
 

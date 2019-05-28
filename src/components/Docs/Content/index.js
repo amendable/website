@@ -1,12 +1,12 @@
 import React from 'react'
+import Container from '@amendable/core'
 import {
-  Container,
-  Text,
   useBreakpoints,
 } from 'candour'
 import { AmendableProvider } from '@amendable/core'
 
 import amendableResolvers from '../../../theme/amendableResolvers'
+import Text from '../../Text'
 import Pagination from './Pagination/index'
 import GitHubMeta from './GitHubMeta/index'
 

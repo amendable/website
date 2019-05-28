@@ -1,20 +1,15 @@
 import Overview from './overview.md'
 import StylePropsUsage from './style-props/usage.md'
-import StylePropsShorthand from './style-props/shorthand.md'
 import StylePropsList from './style-props/list.md'
 import StylePropsWhyInlineStyles from './style-props/why-inline-styles.md'
-import ConvertersOverview from './converters/overview.md'
-import ConvertersFluidSteps from './converters/fluid-steps.md'
-import ConvertersColors from './converters/colors.md'
-import ConvertersBorders from './converters/borders.md'
-import ConvertersFontFamilies from './converters/font-families.md'
-import ConvertersCustom from './converters/custom.md'
-import ConvertersCreateNew from './converters/create-new.md'
-import Breakpoints from './breakpoints.md'
+import ResolversOverview from './resolvers/overview.md'
+import ResolversFluidScale from './resolvers/fluid-scale.md'
+import ResolversColors from './resolvers/colors.md'
+import ResolversCreateNew from './resolvers/create-new.md'
 import GettingStartedInstall from './getting-started/install.md'
 import GettingStartedNormalize from './getting-started/normalize.md'
 import PrimitivesContainer from './primitives/container.md'
-import CandourProvider from './candour-provider.md'
+import AmendableProvider from './amendable-provider.md'
 import Faq from './faq.md'
 
 export default [
@@ -49,11 +44,6 @@ export default [
         component: StylePropsUsage,
       },
       {
-        name: 'Shorthand',
-        slug: 'style-props/shorthand',
-        component: StylePropsShorthand,
-      },
-      {
         name: 'List',
         slug: 'style-props/list',
         component: StylePropsList,
@@ -66,55 +56,35 @@ export default [
     ],
   },
   {
-    name: 'Converters',
-    slug: 'converters',
+    name: 'Resolvers',
+    slug: 'resolvers',
     items: [
       {
         name: 'Overview',
-        slug: 'converters/overview',
-        component: ConvertersOverview,
+        slug: 'resolvers/overview',
+        component: ResolversOverview,
       },
       {
-        name: 'Fluid steps',
-        slug: 'converters/fluid-steps',
-        component: ConvertersFluidSteps,
+        name: 'Fluid scale',
+        slug: 'resolvers/fluid-scale',
+        component: ResolversFluidScale,
       },
       {
         name: 'Colors',
-        slug: 'converters/colors',
-        component: ConvertersColors,
+        slug: 'resolvers/colors',
+        component: ResolversColors,
       },
       {
-        name: 'Borders',
-        slug: 'converters/borders',
-        component: ConvertersBorders,
-      },
-      {
-        name: 'Font families',
-        slug: 'converters/font-families',
-        component: ConvertersFontFamilies,
-      },
-      {
-        name: 'Custom',
-        slug: 'converters/custom',
-        component: ConvertersCustom,
-      },
-      {
-        name: 'Create a new converter',
-        slug: 'converters/create-new',
-        component: ConvertersCreateNew,
+        name: 'Create a new resolver',
+        slug: 'resolvers/create-new',
+        component: ResolversCreateNew,
       },
     ],
   },
   {
-    name: 'CandourProvider',
-    slug: 'candour-provider',
-    component: CandourProvider,
-  },
-  {
-    name: 'Breakpoints',
-    slug: 'breakpoints',
-    component: Breakpoints,
+    name: 'AmendableProvider',
+    slug: 'amendable-provider',
+    component: AmendableProvider,
   },
   {
     name: 'Primitives',

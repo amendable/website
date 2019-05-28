@@ -11,31 +11,28 @@ npm install candour --save
 
 ## Setup
 
-To setup <Amendable />, just wrap your app with `CandourProvider`.
+To setup <Amendable />, just wrap your app with `AmendableProvider`.
 Here's a simple example with
 [Create React App](https://facebook.github.io/create-react-app/):
 
 ```jsx sandbox
 import React from 'react'
 import { render } from 'react-dom'
-import { CandourProvider, Text } from 'candour'
-
-const candourTheme = {
-  text: {
-    base: {
-      color: 'gray',
-    },
-  },
-}
+import Container, { AmendableProvider } from '@amendable/core'
 
 render(
-  <CandourProvider theme={candourTheme}>
+  <AmendableProvider
+    resolvers={[
+      colors({ colors: { aqua: '#66fcd9' } }),
+      inlineStyles(),
+    ]}
+  >
     Your app here
 
-    <Text>
-      Candour primitives will use the theme anywhere in your app
-    </Text>
-  </CandourProvider>,
+    <Container color='aqua'>
+      Container can be used anywhere in the app
+    </Container>
+  </AmendableProvider>,
   document.getElementById('root')
 )
 ```

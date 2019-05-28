@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Link } from 'candour'
+import Container from '@amendable/core'
+import Link from '../../Link'
 
 import docs from '../../../docs/index'
 import Items from './Items'
@@ -9,7 +10,7 @@ export default (props) => (
     <Items items={docs} {...props} />
 
     <Link
-      href='https://github.com/candourpro/candour'
+      href='https://github.com/amendable/core'
       target='_blank'
       level={props.level}
     >

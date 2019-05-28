@@ -19,8 +19,3 @@ Here's a short gist of advantages of inline styles:
 - Dead code elimination
 - Automatic minification (assuming you minify your JavaScript)
 - Constant sharing (just using JavaScript variables)
-
- <Amendable marginLeft={-.2} /> also builds upon
-[Radium](https://formidable.com/open-source/radium/), which enables simple
-browser state (`:hover`, `:focus`, `:active`) support, automatic vendor
-prefixing and other inline style improvements.

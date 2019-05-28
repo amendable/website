@@ -19,12 +19,13 @@ const Fallback = ({ error }) => (
 
 export default props => (
   <Container padding whiteSpaceNormal>
-    <AmendableProvider>
+    <AmendableProvider resolvers={[inlineStyles()]}>
       <ErrorBoundary FallbackComponent={Fallback} key={props.children}>
         <CodeSandbox
           imports={{
             React,
             RouterLink,
+            Link: RouterLink,
             AmendableProvider,
             Container,
             CandourNormalize,

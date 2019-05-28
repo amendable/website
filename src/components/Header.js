@@ -43,7 +43,7 @@ export default (props) => {
             Docs
           </Link>
           <Link
-            href='https://github.com/candourpro/candour'
+            href='https://github.com/amendable/core'
             target='_blank'
             marginLeft={3}
             level={8}

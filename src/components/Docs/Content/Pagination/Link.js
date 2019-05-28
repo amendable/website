@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
-import {
-  Text,
-  Link,
-} from 'candour'
+import Text from '../../../Text'
+import Link from '../../../Link'
 
 export default ({
   label,

@@ -1,7 +1,5 @@
 import React from 'react'
-import {
-  Container,
-} from 'candour'
+import Container from '@amendable/core'
 import LogoBlock from '../components/LogoBlock'
 
 export default (props) => (

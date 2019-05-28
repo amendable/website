@@ -11,10 +11,10 @@ otherwise use a `div` or `span` HTML tag.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import { Container } from 'candour'
+import Container from '@amendable/core'
 
 render(
-  <Container backgroundColorBlack colorWhite padding='20px'>
+  <Container backgroundColor='black' color='white' padding='20px'>
     A container
   </Container>
 )
@@ -35,43 +35,4 @@ passed to the underlying `component`.
 
 | Prop                                                                              | Default     | Description                                           |
 | -------------                                                                     | --------    | -----                                                 |
-| `level`                                                                           | `6`         | Values between `1-6`                                  |
 | `component`                                                                       | `div`       | Any HTML or React component (`div`, `p`, `Link`, etc) |
-| [*camelCased CSS key*](/docs/style-props/list)                                    |             | Example: `fontWeight={700}`                           |
-| [*camelCased CSS key*](/docs/style-props/list) *and camelCased value combination* |             | Example: `<Container justifyContentSpaceBetween />`   |
-
-> **Note**
-
-> Since `Container` is a basic building block of <Amendable />, `level` prop
-will likely not be really useful here, but is provided just for the
-completeness sake.
-
-## Theming
-
-Base style of `Container` is defined in theme at `container` key. You can also
-define styles of `Container` [levels](/docs/theme/levels) and
-additional `Container`-specific [modifiers](/docs/theme/modifiers).
-
-
-```js
-{
-  container: {
-    base: {
-      padding: 1,
-    },
-    5: {
-      fontSize: 2,
-    },
-    grey: {
-      color: 'grey',
-    },
-  },
-}
-```
-
-> **Note**
-
-> `base` or [levels](/docs/theme/levels) of `Container` will likely not be
-themed since it is a basic building block of <Amendable />.
-Theming it would mean that it would change the style of every
-other <Amendable />-based primitive.

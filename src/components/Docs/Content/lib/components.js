@@ -1,13 +1,11 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 import _ from 'lodash'
-import {
-  Container,
-  Heading,
-  Text,
-  Code,
-  Link,
-} from 'candour'
+import Container from '@amendable/core'
+import Heading from '../../../Heading'
+import Text from '../../../Text'
+import Code from '../../../Code'
+import Link from '../../../Link'
 import CodeWithSandbox from '../../../CodeWithSandbox'
 import borders from '../../../../theme/borders'
 

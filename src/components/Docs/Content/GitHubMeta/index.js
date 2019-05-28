@@ -1,8 +1,6 @@
 import React from 'react'
-import {
-  Container,
-  Link,
-} from 'candour'
+import Container from '@amendable/core'
+import Link from '../../../Link'
 
 import editUrl from './lib/editUrl'
 

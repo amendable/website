@@ -1,6 +1,6 @@
 import React from 'react'
+import Container from '@amendable/core'
 import {
-  Container,
   useBreakpoints,
 } from 'candour'
 

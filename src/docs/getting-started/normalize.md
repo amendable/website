@@ -27,25 +27,17 @@ npm install candour-normalize --save
 ```jsx sandbox
 import React from 'react'
 import { render } from 'react-dom'
-import { CandourProvider } from 'candour'
+import Container, { AmendableProvider } from '@amendable/core'
 import CandourNormalize from 'candour-normalize'
 
-const candourTheme = {
-  text: {
-    base: {
-      color: 'gray',
-    },
-  },
-}
-
 render(
-  <CandourProvider theme={candourTheme}>
+  <AmendableProvider>
     <CandourNormalize />
 
-    <Text>
+    <Container>
       Normalized text
-    </Text>
-  </CandourProvider>,
+    </Container>
+  </AmendableProvider>,
   document.getElementById('root')
 )
 ```

@@ -1,6 +1,6 @@
 import Amendable from '../Amendable'
 
-# Fluid steps
+# Fluid scale
 
 Fluid design allows you to specify less breakpoints and enable
 a more adaptive user experience.
@@ -10,20 +10,24 @@ below will change it's font size in proportion.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import { CandourProvider, Heading } from 'candour'
-import fluidSteps from 'candour-fluid-steps'
+import Container, { AmendableProvider } from '@amendable/core'
+import fluidScale from '@amendable/fluid-scale'
+import inlineStyles from '@amendable/inline-styles'
 
 render(
-  <CandourProvider
-    converters={[fluidSteps()]}
+  <AmendableProvider
+    resolvers={[
+      fluidScale(),
+      inlineStyles(),
+    ]}
   >
-    <Heading fontSize={5}>
+    <Container fontSize={5}>
       FLUID
-    </Heading>
-    <Heading fontSize='75px'>
+    </Container>
+    <Container fontSize='75px'>
       FIXED
-    </Heading>
-  </CandourProvider>
+    </Container>
+  </AmendableProvider>
 )
 ```
 
@@ -34,7 +38,7 @@ think of it as a **next generation of responsive design**. Every `width`,
 
 ## Design rhythmn and a fluid step
 
-If you include the `fluidSteps` converter - all <Amendable /> sizes in will use
+If you include the `fluidScale` converter - all <Amendable /> sizes in will use
 a common step. Step is a building block that every size of your design
 stems from (similar to grid).
 
@@ -53,40 +57,42 @@ So step size will always remain between `14px` and `18px`.
 ## Usage
 
 Every CSS-based size property that does not have a unit (`px`, `em`, etc.)
-is converted with `fluidSteps`. `fontSize` of "**Heading with font size**" below
+is converted with `fluidScale`. `fontSize` of "**Heading with font size**" below
 gets converted from `1` into a viewport width-based `calc` css formula.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import { CandourProvider, Heading } from 'candour'
-import fluidSteps from 'candour-fluid-steps'
+import Container, { AmendableProvider } from '@amendable/core'
+import fluidScale from '@amendable/fluid-scale'
+import inlineStyles from '@amendable/inline-styles'
 
 render(
-  <CandourProvider converters={[fluidSteps()]}>
-    <Heading fontSize={1}>
-      Heading with font size
-    </Heading>
-  </CandourProvider>
+  <AmendableProvider resolvers={[fluidScale(), inlineStyles()]}>
+    <Container fontSize={1}>
+      Container with font size
+    </Container>
+  </AmendableProvider>
 )
 ```
 
 ## Configure
 
-You can pass `fluidSteps` prop to `CandourProvider` with configuration.
+You can pass `fluidScale` prop to `AmendableProvider` with configuration.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import { CandourProvider, Heading } from 'candour'
-import fluidSteps from 'candour-fluid-steps'
+import Container, { AmendableProvider } from '@amendable/core'
+import fluidScale from '@amendable/fluid-scale'
+import inlineStyles from '@amendable/inline-styles'
 
 render(
-  <CandourProvider
-    converters={[fluidSteps({ min: 5, max: 30 })]}
+  <AmendableProvider
+    resolvers={[fluidScale({ min: 5, max: 30 }), inlineStyles()]}>
   >
-    <Heading fontSize={1}>
-      Heading with font size
-    </Heading>
-  </CandourProvider>
+    <Container fontSize={1}>
+      Container with font size
+    </Container>
+  </AmendableProvider>
 )
 ```
 

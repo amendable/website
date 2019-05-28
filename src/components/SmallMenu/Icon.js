@@ -2,10 +2,8 @@ import React from 'react'
 import {
   Link as RouterLink,
 } from 'react-router-dom'
-import {
-  Container,
-  Link,
-} from 'candour'
+import Container from '@amendable/core'
+import Link from '../Link'
 
 export default ({
   location: {
