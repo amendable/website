@@ -1,8 +1,8 @@
-import Candour from '../Candour'
+import Amendable from '../Amendable'
 
 # Container
 
-Container is the most basic primitive of <Candour />.
+Container is the most basic primitive of <Amendable />.
 Every other primitive builds on this `Container` and passes all the props to
 this one.
 
@@ -30,7 +30,7 @@ you will ensure that your whole design will be with a common rhythm.
 
 ## Props
 
-`Container` has some useful <Candour />-related props. The rest of the props are
+`Container` has some useful <Amendable />-related props. The rest of the props are
 passed to the underlying `component`.
 
 | Prop                                                                              | Default     | Description                                           |
@@ -42,7 +42,7 @@ passed to the underlying `component`.
 
 > **Note**
 
-> Since `Container` is a basic building block of <Candour />, `level` prop
+> Since `Container` is a basic building block of <Amendable />, `level` prop
 will likely not be really useful here, but is provided just for the
 completeness sake.
 
@@ -72,6 +72,6 @@ additional `Container`-specific [modifiers](/docs/theme/modifiers).
 > **Note**
 
 > `base` or [levels](/docs/theme/levels) of `Container` will likely not be
-themed since it is a basic building block of <Candour />.
+themed since it is a basic building block of <Amendable />.
 Theming it would mean that it would change the style of every
-other <Candour />-based primitive.
+other <Amendable />-based primitive.

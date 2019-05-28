@@ -1,4 +1,4 @@
-import Candour from './Candour'
+import Amendable from './Amendable'
 
 # Breakpoints
 
@@ -7,7 +7,7 @@ import Candour from './Candour'
 > This feature uses [React hooks](https://reactjs.org/docs/hooks-intro.html)
 and is only available if you use `react@16.7.0-alpha.0` or above.
 
-Breakpoints are essential for a fully responsive design. <Candour /> provides
+Breakpoints are essential for a fully responsive design. <Amendable /> provides
 `useBreakpoints` utility based on React hooks.
 
 ## Usage

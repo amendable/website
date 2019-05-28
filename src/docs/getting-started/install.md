@@ -1,4 +1,4 @@
-import Candour from '../Candour'
+import Amendable from '../Amendable'
 
 # Install
 
@@ -11,7 +11,7 @@ npm install candour --save
 
 ## Setup
 
-To setup <Candour />, just wrap your app with `CandourProvider`.
+To setup <Amendable />, just wrap your app with `CandourProvider`.
 Here's a simple example with
 [Create React App](https://facebook.github.io/create-react-app/):
 

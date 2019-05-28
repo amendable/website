@@ -1,8 +1,8 @@
-import Candour from './Candour'
+import Amendable from './Amendable'
 
 # Overview
 
- <Candour marginLeft={-.2} /> is a fully configurable inline style system
+ <Amendable marginLeft={-.2} /> is a fully configurable inline style system
 for React.
 
 **Core features:**
@@ -13,27 +13,27 @@ for React.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import { CandourProvider, Container } from 'candour'
-import fluidSteps from 'candour-fluid-steps'
-import colors from 'candour-colors'
+import Container, { AmendableProvider } from '@amendable/core'
+import fluidScale from '@amendable/fluid-scale'
+import colors from '@amendable/colors'
 
 render(
-  <CandourProvider
-    converters={[fluidSteps(), colors({ aqua: '#66fcd9' })]}
+  <AmendableProvider
+    converters={[fluidScale(), colors({ colors: { aqua: '#66fcd9' } })]}
   >
-    <Container backgroundColor='aqua' fontWeight700 padding={2}>
-      Candour
+    <Container backgroundColor='aqua' fontWeight={700} padding={2}>
+      Amendable
     </Container>
-  </CandourProvider>
+  </AmendableProvider>
 )
 ```
 
-## Why Candour?
+## Why Amendable?
 
 React ecosystem is absolutely thriving. There are many great attempts at
 **design systems**, but none are built on
 [**inline CSS styles**](/docs/style-props/why-inline-styles) and are
 easily **maintainable**.
 
-The goal of <Candour /> is to enable building powerful design systems through
+The goal of <Amendable /> is to enable building powerful design systems through
 total configurability.

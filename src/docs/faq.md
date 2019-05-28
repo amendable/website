@@ -1,10 +1,10 @@
-import Candour from './Candour'
+import Amendable from './Amendable'
 
 # FAQ
 
-## How to use Candour with external libraries?
+## How to use Amendable with external libraries?
 
-To use [React Router](https://reacttraining.com/react-router/web) with <Candour />
+To use [React Router](https://reacttraining.com/react-router/web) with <Amendable />
 primitives, you can just pass the router `Link` through the
 `component` prop:
 
@@ -19,7 +19,7 @@ render(
     to='/docs/faq'
     textDecorationUnderline
   >
-    React router link with Candour style
+    React router link with Amendable style
   </Link>
 )
 ```

@@ -11,19 +11,9 @@ import ConvertersFontFamilies from './converters/font-families.md'
 import ConvertersCustom from './converters/custom.md'
 import ConvertersCreateNew from './converters/create-new.md'
 import Breakpoints from './breakpoints.md'
-import ThemeBase from './theme/base.md'
-import ThemeModifiers from './theme/modifiers.md'
-import ThemeLevels from './theme/levels.md'
 import GettingStartedInstall from './getting-started/install.md'
 import GettingStartedNormalize from './getting-started/normalize.md'
 import PrimitivesContainer from './primitives/container.md'
-import PrimitivesHeading from './primitives/heading.md'
-import PrimitivesText from './primitives/text.md'
-import PrimitivesLink from './primitives/link.md'
-import PrimitivesButton from './primitives/button.md'
-import PrimitivesInput from './primitives/input.md'
-import PrimitivesCode from './primitives/code.md'
-import PrimitivesCreateNew from './primitives/create-new.md'
 import CandourProvider from './candour-provider.md'
 import Faq from './faq.md'
 
@@ -117,27 +107,6 @@ export default [
     ],
   },
   {
-    name: 'Theme',
-    slug: 'theme',
-    items: [
-      {
-        name: 'Base',
-        slug: 'theme/base',
-        component: ThemeBase,
-      },
-      {
-        name: 'Modifiers',
-        slug: 'theme/modifiers',
-        component: ThemeModifiers,
-      },
-      {
-        name: 'Levels',
-        slug: 'theme/levels',
-        component: ThemeLevels,
-      },
-    ],
-  },
-  {
     name: 'CandourProvider',
     slug: 'candour-provider',
     component: CandourProvider,
@@ -155,41 +124,6 @@ export default [
         name: 'Container',
         slug: 'primitives/container',
         component: PrimitivesContainer,
-      },
-      {
-        name: 'Heading',
-        slug: 'primitives/heading',
-        component: PrimitivesHeading,
-      },
-      {
-        name: 'Text',
-        slug: 'primitives/text',
-        component: PrimitivesText,
-      },
-      {
-        name: 'Link',
-        slug: 'primitives/link',
-        component: PrimitivesLink,
-      },
-      {
-        name: 'Button',
-        slug: 'primitives/button',
-        component: PrimitivesButton,
-      },
-      {
-        name: 'Input',
-        slug: 'primitives/input',
-        component: PrimitivesInput,
-      },
-      {
-        name: 'Code',
-        slug: 'primitives/code',
-        component: PrimitivesCode,
-      },
-      {
-        name: 'Create a new primitive',
-        slug: 'primitives/create-new',
-        component: PrimitivesCreateNew,
       },
     ],
   },

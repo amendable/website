@@ -1,4 +1,4 @@
-import Candour from '../Candour'
+import Amendable from '../Amendable'
 
 # Fluid steps
 
@@ -34,7 +34,7 @@ think of it as a **next generation of responsive design**. Every `width`,
 
 ## Design rhythmn and a fluid step
 
-If you include the `fluidSteps` converter - all <Candour /> sizes in will use
+If you include the `fluidSteps` converter - all <Amendable /> sizes in will use
 a common step. Step is a building block that every size of your design
 stems from (similar to grid).
 

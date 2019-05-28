@@ -1,4 +1,4 @@
-import Candour from '../Candour'
+import Amendable from '../Amendable'
 
 # Font families
 

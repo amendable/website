@@ -1,8 +1,8 @@
-import Candour from './Candour'
+import Amendable from './Amendable'
 
 # CandourProvider
 
-`CandourProvider` is used to set up <Candour />.
+`CandourProvider` is used to set up <Amendable />.
 
 ```jsx sandbox
 import React from 'react'
@@ -32,10 +32,10 @@ render(
 
 ## Props
 
-`CandourProvider` has some useful <Candour />-related props.
+`CandourProvider` has some useful <Amendable />-related props.
 
 | Prop               | Default                                | Description                                                                                        |
 | -------------      | --------                               | -----                                                                                              |
-| `theme`            | Default <Candour /> theme              | Set up the theme                                                                                   |
+| `theme`            | Default <Amendable /> theme              | Set up the theme                                                                                   |
 | `parsers`          | `[]`                                   | Check [Overview of style value parsers](/docs/style-value-parsers/overview) for available parsers. |
 | [*parser configs*](/docs/style-value-parsers/overview) |             | Parsers are configured by passing properties to this provider

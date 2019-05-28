@@ -1,8 +1,8 @@
-import Candour from '../Candour'
+import Amendable from '../Amendable'
 
 # Usage of style props
 
- <Candour marginLeft={-.2} /> introduces a concept of component style props - a
+ <Amendable marginLeft={-.2} /> introduces a concept of component style props - a
 way to style your components via `props` of a primitive component.
 
 ```jsx sandbox
