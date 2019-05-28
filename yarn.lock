@@ -16,12 +16,12 @@
     lodash "^4.17.11"
     stylis "^3.5.4"
 
-"@amendable/fluid-scale@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@amendable/fluid-scale/-/fluid-scale-0.0.1.tgz#cfa6940a4adf102a3d10066d28504ebbef36efb5"
-  integrity sha512-Z4JIQVbXK+MSNJo9R1YNotKdOq+1313Ks1UCFNFYBl2OUOclxjOUOTzVLa6tDWb5a2xiuyz6JAWPzBjd/OUbCw==
+"@amendable/fluid-scale@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@amendable/fluid-scale/-/fluid-scale-0.0.2.tgz#70db146a9f56d8344d8941ff72b23d62185a19c6"
+  integrity sha512-ZBSFttGBapWinnGp0iFQuvuo538JKx8wqXbrM6MTHmigQzXEFujqPjfKT1dC+UF/UK7KuDvLlrSw86hULBAi/Q==
   dependencies:
-    "@amendable/scale" "file:../scale"
+    "@amendable/scale" "^0.0.1"
 
 "@amendable/inline-styles@^0.0.1":
   version "0.0.1"
@@ -31,8 +31,10 @@
     camelcase-css "^2.0.1"
     known-css-properties "^0.14.0"
 
-"@amendable/scale@file:../scale":
-  version "0.1.0"
+"@amendable/scale@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@amendable/scale/-/scale-0.0.1.tgz#9ac5bec28a12f24bc9935643469d8e53e90345fb"
+  integrity sha512-WnhzZVG9XYwwv7VuocpUTPV4nE7hoXK+1VPBEJx5C3JtDOtReNBINPilpL8jqu5F07AAk7dUhIK/DmhZNYrcQQ==
   dependencies:
     is-number "^7.0.0"
 

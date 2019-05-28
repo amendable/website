@@ -5,7 +5,7 @@
   "dependencies": {
     "@amendable/colors": "^0.0.1",
     "@amendable/core": "^0.0.1",
-    "@amendable/fluid-scale": "^0.0.1",
+    "@amendable/fluid-scale": "^0.0.2",
     "@amendable/inline-styles": "^0.0.1",
     "@amendable/style-shorthands": "^0.0.1",
     "@babel/core": "^7.1.2",
