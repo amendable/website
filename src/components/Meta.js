@@ -2,8 +2,8 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import ogUrl from '../helpers/ogUrl'
 
-const title = 'Candour'
-const description = 'Candour is an abstraction layer to build context-aware design systems. It enables web developers to build complex UI systems with less effort.'
+const title = 'Amendable'
+const description = 'Amendable is an abstraction layer to build context-aware design systems. It enables web developers to build complex UI systems with less effort.'
 
 export default () => (
   <Helmet>
