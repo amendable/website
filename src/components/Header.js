@@ -27,7 +27,7 @@ export default (props) => {
       >
         <Link component={RouterLink} to='/' displayFlex alignItemsCenter>
           <LogoBlock />
-          <Text marginLeft fontWeight700>
+          <Text marginLeft={0.5} fontWeight700>
             Amendable
           </Text>
         </Link>

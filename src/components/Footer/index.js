@@ -8,7 +8,7 @@ import Text from '../Text'
 export default () => (
   <Container padding paddingTop={3} paddingBottom={3} backgroundColorBlack colorWhite displayFlex alignItemsCenter>
     <Link component={RouterLink} to='/' displayFlex alignItemsCenter>
-      <LogoBlock />
+      <LogoBlock fill='white' />
       <Text marginLeft fontWeight700>
         Amendable
       </Text>
