@@ -18,7 +18,7 @@ Here's a simple example with
 ```jsx sandbox
 import React from 'react'
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 
 render(
   <AmendableProvider
@@ -29,9 +29,9 @@ render(
   >
     Your app here
 
-    <Container color='aqua'>
-      Container can be used anywhere in the app
-    </Container>
+    <Box color='aqua'>
+      Box can be used anywhere in the app
+    </Box>
   </AmendableProvider>,
   document.getElementById('root')
 )

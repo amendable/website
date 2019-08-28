@@ -9,7 +9,7 @@ the `value` to the style prop.
 ```jsx sandbox
 import React from 'react'
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import fluidScale from '@amendable/fluid-scale'
 import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
@@ -24,13 +24,13 @@ render(
   >
     Your app here
 
-    <Container fontSize={2}>
+    <Box fontSize={2}>
       Size style values will be resolved with fluid scale resolver
-    </Container>
+    </Box>
 
-    <Container color='raddish'>
+    <Box color='raddish'>
       Color style values will be resolved with colors resolver
-    </Container>
+    </Box>
   </AmendableProvider>,
   document.getElementById('root')
 )

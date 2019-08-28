@@ -10,7 +10,7 @@ below will change it's font size in proportion.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import fluidScale from '@amendable/fluid-scale'
 import inlineStyles from '@amendable/inline-styles'
 
@@ -21,12 +21,12 @@ render(
       inlineStyles(),
     ]}
   >
-    <Container fontSize={5}>
+    <Box fontSize={5}>
       FLUID
-    </Container>
-    <Container fontSize='75px'>
+    </Box>
+    <Box fontSize='75px'>
       FIXED
-    </Container>
+    </Box>
   </AmendableProvider>
 )
 ```
@@ -62,15 +62,15 @@ gets converted from `1` into a viewport width-based `calc` css formula.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import fluidScale from '@amendable/fluid-scale'
 import inlineStyles from '@amendable/inline-styles'
 
 render(
   <AmendableProvider resolvers={[fluidScale(), inlineStyles()]}>
-    <Container fontSize={1}>
-      Container with font size
-    </Container>
+    <Box fontSize={1}>
+      Box with font size
+    </Box>
   </AmendableProvider>
 )
 ```
@@ -81,7 +81,7 @@ You can pass `fluidScale` prop to `AmendableProvider` with configuration.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import fluidScale from '@amendable/fluid-scale'
 import inlineStyles from '@amendable/inline-styles'
 
@@ -89,9 +89,9 @@ render(
   <AmendableProvider
     resolvers={[fluidScale({ min: 5, max: 30 }), inlineStyles()]}>
   >
-    <Container fontSize={1}>
-      Container with font size
-    </Container>
+    <Box fontSize={1}>
+      Box with font size
+    </Box>
   </AmendableProvider>
 )
 ```

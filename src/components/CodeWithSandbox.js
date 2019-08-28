@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Style } from 'radium'
-import Container, { useAmendable } from '@amendable/core'
+import Box, { useAmendable } from '@amendable/core'
 import Editor from 'react-simple-code-editor'
 import { highlight, languages } from 'prismjs/components/prism-core'
 import 'prismjs/components/prism-clike'
@@ -15,7 +15,7 @@ export default ({ sandbox, editable, wrapper, children, ...rest }) => {
   const [code, setCode] = useState(children)
 
   return (
-    <Container>
+    <Box>
       {sandbox && <Sandbox>
         {wrapper ? wrapper(code) : code}
       </Sandbox>}
@@ -48,6 +48,6 @@ export default ({ sandbox, editable, wrapper, children, ...rest }) => {
           disabled={!editable}
         />
       </Code>
-    </Container>
+    </Box>
   )
 }

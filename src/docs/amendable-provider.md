@@ -7,7 +7,7 @@ import Amendable from './Amendable'
 ```jsx sandbox
 import React from 'react'
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import fluidScale from '@amendable/fluid-scale'
 import inlineStyles from '@amendable/inline-styles'
 
@@ -15,9 +15,9 @@ render(
   <AmendableProvider resolvers={[fluidScale(), inlineStyles()]}>
     Your app here
 
-    <Container fontSize={2}>
+    <Box fontSize={2}>
       Amendable elements will work anywhere inside your app
-    </Container>
+    </Box>
   </AmendableProvider>,
   document.getElementById('root')
 )

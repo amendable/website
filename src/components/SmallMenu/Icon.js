@@ -2,7 +2,7 @@ import React from 'react'
 import {
   Link as RouterLink,
 } from 'react-router-dom'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import Link from '../Link'
 
 export default ({
@@ -18,7 +18,7 @@ export default ({
     padding
     paddingRight={0}
   >
-    <Container
+    <Box
       borderTopBlack
       borderBottomBlack
       height={.5}

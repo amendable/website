@@ -7,21 +7,21 @@ way to style your components via `props` of a primitive component.
 
 ```jsx sandbox
 render(
-  <Container backgroundColor='black' color='white' padding='20px'>
-    Container with style props
-  </Container>
+  <Box backgroundColor='black' color='white' padding='20px'>
+    Box with style props
+  </Box>
 )
 ```
 
 Style props just translate it to:
 ```js
-<Container style={{ backgroundColor: 'black', color: 'white', padding: '20px' }}>
-  Container with style props
-</Container>
+<Box style={{ backgroundColor: 'black', color: 'white', padding: '20px' }}>
+  Box with style props
+</Box>
 ```
 
 Style props allow for easier style merging and passing down to child components,
-since you can use the spread syntax `<Container {...props} />` instead of
+since you can use the spread syntax `<Box {...props} />` instead of
 merging the `style` prop.
 
 There is nothing else to learn - [all CSS props](/docs/style-props/list)

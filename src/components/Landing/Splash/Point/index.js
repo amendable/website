@@ -1,9 +1,9 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import Checkmark from './Checkmark'
 
 export default ({ children, ...rest }) => (
-  <Container
+  <Box
     displayFlex
     alignItemsCenter
     level={8}
@@ -11,5 +11,5 @@ export default ({ children, ...rest }) => (
     {...rest}
   >
     <Checkmark /> {children}
-  </Container>
+  </Box>
 )

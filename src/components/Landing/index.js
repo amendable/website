@@ -1,14 +1,14 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 
 import Splash from './Splash'
 import Concepts from './Concepts'
 import Users from './Users'
 
 export default (props) => (
-  <Container>
+  <Box>
     <Splash />
     <Concepts {...props} />
     <Users />
-  </Container>
+  </Box>
 )

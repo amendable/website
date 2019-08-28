@@ -1,9 +1,9 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import LogoBlock from '../components/LogoBlock'
 
 export default (props) => (
-  <Container displayInlineBlock marginLeft={.3} {...props}>
+  <Box displayInlineBlock marginLeft={.3} {...props}>
     <LogoBlock
       displayInlineBlock
       height={.7}
@@ -11,8 +11,8 @@ export default (props) => (
       marginRight={.3}
       marginBottom={.05}
     />
-    <Container displayInline fontWeight700>
+    <Box displayInline fontWeight700>
       Amendable
-    </Container>
-  </Container>
+    </Box>
+  </Box>
 )

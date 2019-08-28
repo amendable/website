@@ -91,8 +91,8 @@ export default [
     slug: 'primitives',
     items: [
       {
-        name: 'Container',
-        slug: 'primitives/container',
+        name: 'Box',
+        slug: 'primitives/box',
         component: PrimitivesContainer,
       },
     ],

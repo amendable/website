@@ -1,5 +1,5 @@
 import { render } from 'react-dom'
-import Container, {
+import Box, {
   AmendableProvider,
 } from '@amendable/core'
 import colors from '@amendable/colors'
@@ -16,8 +16,8 @@ render(
   <AmendableProvider
     resolvers={[colors({ colors: { primary: '#66fcd9' } }), fluidScale()]}
   >
-    <Container backgroundColor='primary' fontWeight={700} padding={1}>
+    <Box backgroundColor='primary' fontWeight={700} padding={1}>
       It's magic
-    </Container>
+    </Box>
   </AmendableProvider>
 )

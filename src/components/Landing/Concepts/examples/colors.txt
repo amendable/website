@@ -1,5 +1,5 @@
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
 
@@ -10,11 +10,11 @@ render(
       inlineStyles(),
     ]}
   >
-    <Container
+    <Box
       color='primary'
       fontWeight={700}
     >
       Colors
-    </Container>
+    </Box>
   </AmendableProvider>
 )

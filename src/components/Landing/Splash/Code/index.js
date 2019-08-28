@@ -2,7 +2,7 @@ import React from 'react'
 import {
   useBreakpoints,
 } from 'candour'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import CodeWithSandbox from '../../../CodeWithSandbox'
 import example from './example.txt'
 
@@ -20,7 +20,7 @@ export default () => {
   const { small } = useBreakpoints()
 
   return (
-    <Container minWidth25={!small}>
+    <Box minWidth25={!small}>
       <CodeWithSandbox
         editable
         sandbox
@@ -29,6 +29,6 @@ export default () => {
       >
         {example}
       </CodeWithSandbox>
-    </Container>
+    </Box>
   )
 }

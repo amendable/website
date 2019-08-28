@@ -1,6 +1,6 @@
 import React from 'react'
 import CodeSandbox from 'react-code-sandbox'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import { Link as RouterLink } from 'react-router-dom'
 import ErrorBoundary from 'react-error-boundary'
 import {
@@ -12,13 +12,13 @@ import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
 
 const Fallback = ({ error }) => (
-  <Container colorRed padding={2} whiteSpacePreWrap fontFamilyMonospace>
+  <Box colorRed padding={2} whiteSpacePreWrap fontFamilyMonospace>
     {error.toString()}
-  </Container>
+  </Box>
 )
 
 export default props => (
-  <Container padding whiteSpaceNormal>
+  <Box padding whiteSpaceNormal>
     <AmendableProvider resolvers={[inlineStyles()]}>
       <ErrorBoundary FallbackComponent={Fallback} key={props.children}>
         <CodeSandbox
@@ -27,7 +27,7 @@ export default props => (
             RouterLink,
             Link: RouterLink,
             AmendableProvider,
-            Container,
+            Box,
             CandourNormalize,
             fluidScale,
             colors,
@@ -38,5 +38,5 @@ export default props => (
         />
       </ErrorBoundary>
     </AmendableProvider>
-  </Container>
+  </Box>
 )

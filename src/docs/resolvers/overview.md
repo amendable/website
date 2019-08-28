@@ -10,7 +10,7 @@ To set up style value resolvers, pass `resolvers` array to the `AmendableProvide
 ```jsx sandbox
 import React from 'react'
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import fluidScale from '@amendable/fluid-scale'
 import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
@@ -23,13 +23,13 @@ render(
       inlineStyles()
     ]}
   >
-    <Container fontSize={2}>
+    <Box fontSize={2}>
       Size style values will be resolved with fluid steps resolvers
-    </Container>
+    </Box>
 
-    <Container color='raddish'>
+    <Box color='raddish'>
       Color style values will be resolved with colors resolvers
-    </Container>
+    </Box>
   </AmendableProvider>,
   document.getElementById('root')
 )

@@ -13,7 +13,7 @@ for React.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import fluidScale from '@amendable/fluid-scale'
 import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
@@ -26,9 +26,9 @@ render(
       inlineStyles(),
     ]}
   >
-    <Container backgroundColor='aqua' fontWeight={700} padding={2}>
+    <Box backgroundColor='aqua' fontWeight={700} padding={2}>
       Amendable
-    </Container>
+    </Box>
   </AmendableProvider>
 )
 ```

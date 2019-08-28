@@ -1,13 +1,10 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
-import {
-  Container,
-  Link,
-} from 'candour'
+import Box from '@amendable/core'
 
 export default ({ value, current, children }) => (
-  <Container>
-    <Link
+  <Box>
+    <Box
       component={RouterLink}
       to={`/concepts/${value}`}
       level={5}
@@ -16,6 +13,6 @@ export default ({ value, current, children }) => (
       marginBottom={.2}
     >
       {children} →
-    </Link>
-  </Container>
+    </Box>
+  </Box>
 )

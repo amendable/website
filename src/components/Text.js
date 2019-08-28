@@ -1,6 +1,6 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 
 export default (props) => (
-  <Container fontSize={1} {...props} />
+  <Box fontSize={1} {...props} />
 )

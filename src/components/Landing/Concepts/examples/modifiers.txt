@@ -1,5 +1,5 @@
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import colors from '@amendable/colors'
 import fluidScale from '@amendable/fluid-scale'
 
@@ -36,8 +36,8 @@ render(
       }),
     ]}
   >
-    <Container underline>
+    <Box underline>
       It's magic
-    </Container>
+    </Box>
   </AmendableProvider>
 )

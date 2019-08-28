@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import Heading from '../../Heading'
 import Text from '../../Text'
 import {
@@ -11,22 +11,22 @@ export default ({ title, code, icon, children, ...rest }) => {
   const { small } = useBreakpoints()
 
   return (
-    <Container paddingTop={5} paddingBottom={5} limited displayFlex={!small} justifyContentSpaceBetween>
-      <Container maxWidth={26} paddingRight={2}>
-        {icon && <Container component={icon} height={7} width='initial' paddingBottom />}
+    <Box paddingTop={5} paddingBottom={5} limited displayFlex={!small} justifyContentSpaceBetween>
+      <Box maxWidth={26} paddingRight={2}>
+        {icon && <Box component={icon} height={7} width='initial' paddingBottom />}
         <Heading level={4} fontWeight700 displayFlex alignItemsCenter>
           {title}
         </Heading>
         <Text colorLightBlack paddingTop>
           {children}
         </Text>
-      </Container>
+      </Box>
 
-      <Container maxWidth={!small && 25} width='100%'>
+      <Box maxWidth={!small && 25} width='100%'>
         <CodeWithSandbox sandbox key={code} {...rest}>
           {code}
         </CodeWithSandbox>
-      </Container>
-    </Container>
+      </Box>
+    </Box>
   )
 }

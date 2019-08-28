@@ -1,6 +1,6 @@
 import React from 'react'
 import _ from 'lodash'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import { Link as RouterLink } from 'react-router-dom'
 import Link from '../../Link'
 
@@ -33,8 +33,8 @@ export default ({
       {name}
     </Link>
 
-    {!!items.length && (alwaysOpen || _.startsWith(params[0], slug)) && <Container paddingLeft>
+    {!!items.length && (alwaysOpen || _.startsWith(params[0], slug)) && <Box paddingLeft>
       <Items level={level} items={items} match={match} />
-    </Container>}
+    </Box>}
   </>
 )

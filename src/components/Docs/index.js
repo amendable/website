@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import {
   useBreakpoints,
 } from 'candour'
@@ -11,9 +11,9 @@ export default (props) => {
   const { small } = useBreakpoints()
 
   return (
-    <Container borderTopLight displayFlex>
+    <Box borderTopLight displayFlex>
       {!small && <Menu {...props} />}
       <Content {...props} />
-    </Container>
+    </Box>
   )
 }

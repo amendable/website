@@ -9,7 +9,7 @@ reuse them easily.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
 
@@ -20,9 +20,9 @@ render(
       inlineStyles(),
     ]}
   >
-    <Container color='raddish' backgroundColor='red'>
+    <Box color='raddish' backgroundColor='red'>
       Raddish color
-    </Container>
+    </Box>
   </AmendableProvider>
 )
 ```

@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import {
   useBreakpoints,
 } from 'candour'
@@ -16,7 +16,7 @@ export default (props) => {
 
   return (
     <>
-      <Container
+      <Box
         displayFlex
         justifyContentSpaceBetween
         alignItemsCenter
@@ -31,7 +31,7 @@ export default (props) => {
             Amendable
           </Text>
         </Link>
-        {!small && <Container displayFlex alignItemsCenter>
+        {!small && <Box displayFlex alignItemsCenter>
           <Link
             component={RouterLink}
             to='/docs/overview'
@@ -52,9 +52,9 @@ export default (props) => {
           >
             GitHub
           </Link>
-        </Container>}
+        </Box>}
         {small && <SmallMenuIcon {...props} />}
-      </Container>
+      </Box>
     </>
   )
 }

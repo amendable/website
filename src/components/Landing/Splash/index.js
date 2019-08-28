@@ -2,7 +2,7 @@ import React from 'react'
 import {
   useBreakpoints,
 } from 'candour'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import { Link as RouterLink } from 'react-router-dom'
 import Code from './Code/index'
 import Point from './Point/index'
@@ -12,7 +12,7 @@ export default (props) => {
   const { small } = useBreakpoints()
 
   return (
-    <Container
+    <Box
       padding
       paddingTop={small ? 1 : 5}
       paddingBottom={3}
@@ -20,8 +20,8 @@ export default (props) => {
       justifyContentSpaceBetween
       limited
     >
-      <Container maxWidth={32} paddingRight={2}>
-        <Container
+      <Box maxWidth={32} paddingRight={2}>
+        <Box
           fontSize={2}
           lineHeight={1.25}
           fontWeight={700}
@@ -29,12 +29,12 @@ export default (props) => {
           tight
         >
           Next-gen React<br/>Design Abstraction Layer
-        </Container>
+        </Box>
 
-        <Container paddingBottom={2.6} level={4} colorLightBlack>
-          <Container fontWeight500 level={4} displayInline>Amendable</Container> is
+        <Box paddingBottom={2.6} level={4} colorLightBlack>
+          <Box fontWeight500 level={4} displayInline>Amendable</Box> is
             an abstraction layer to build context-aware designs systems.
-        </Container>
+        </Box>
 
         <Button
           component={RouterLink}
@@ -47,7 +47,7 @@ export default (props) => {
           Learn more
         </Button>
 
-        <Container
+        <Box
           displayFlex={!small}
           paddingBottom={3}
           paddingTop={3}
@@ -61,10 +61,10 @@ export default (props) => {
           <Point paddingRight={1.5}>
             Minimal, performant
           </Point>
-        </Container>
-      </Container>
+        </Box>
+      </Box>
 
       <Code />
-    </Container>
+    </Box>
   )
 }

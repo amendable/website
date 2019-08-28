@@ -11,15 +11,15 @@ primitives, you can just pass the router `Link` through the
 ```jsx sandbox
 import { render } from 'react-dom'
 import { Link } from 'react-router-dom'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 
 render(
-  <Container
+  <Box
     component={Link}
     to='/docs/faq'
     textDecoration='underline'
   >
     React router link with Amendable style
-  </Container>
+  </Box>
 )
 ```

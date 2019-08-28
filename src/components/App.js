@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,7 +25,7 @@ const shouldUpdateScroll = (
 ) => !pathname.match(/^\/concepts/)
 
 export default () => (
-  <Container>
+  <Box>
     <Meta />
     <Router>
       <ScrollContext shouldUpdateScroll={shouldUpdateScroll}>
@@ -42,5 +42,5 @@ export default () => (
         </div>
       </ScrollContext>
     </Router>
-  </Container>
+  </Box>
 )

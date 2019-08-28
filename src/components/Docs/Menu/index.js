@@ -1,12 +1,12 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import Link from '../../Link'
 
 import docs from '../../../docs/index'
 import Items from './Items'
 
 export default (props) => (
-  <Container padding borderRightLight minWidth={12} minHeight='100vh'>
+  <Box padding borderRightLight minWidth={12} minHeight='100vh'>
     <Items items={docs} {...props} />
 
     <Link
@@ -16,5 +16,5 @@ export default (props) => (
     >
       GitHub
     </Link>
-  </Container>
+  </Box>
 )

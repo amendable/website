@@ -1,8 +1,8 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 
 export default (props) => (
-  <Container
+  <Box
     backgroundColor='#F9FBFC'
     rounded
     fontFamily='monospace'

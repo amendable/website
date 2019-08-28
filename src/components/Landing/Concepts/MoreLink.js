@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import Link from '../../Link'
 
 export default (props) => (
-  <Container>
+  <Box>
     <Link
       level={7}
       component={RouterLink}
@@ -14,5 +14,5 @@ export default (props) => (
       borderBottomAqua
       {...props}
     />
-  </Container>
+  </Box>
 )

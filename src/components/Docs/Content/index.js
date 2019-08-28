@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import {
   useBreakpoints,
 } from 'candour'
@@ -18,7 +18,7 @@ export default (props) => {
   const { small } = useBreakpoints()
 
   return (
-    <Container padding paddingLeft={small ? 1 : 2} paddingRight={small ? 1 : 2} paddingBottom={6} width='100%'>
+    <Box padding paddingLeft={small ? 1 : 2} paddingRight={small ? 1 : 2} paddingBottom={6} width='100%'>
       <Text readable>
         <AmendableProvider
           resolvers={amendableResolvers}
@@ -28,6 +28,6 @@ export default (props) => {
       </Text>
       <Pagination {...props} />
       <GitHubMeta {...props} />
-    </Container>
+    </Box>
   )
 }

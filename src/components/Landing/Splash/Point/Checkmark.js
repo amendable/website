@@ -1,10 +1,10 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 
 import { ReactComponent as CheckmarkIcon } from '../../../../assets/checkmark.svg'
 
 export default () => (
-  <Container
+  <Box
     component={CheckmarkIcon}
     width
     height

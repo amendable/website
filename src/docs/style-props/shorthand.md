@@ -12,14 +12,14 @@ you can write it as:
 const isWeatherGood = true
 
 render(
-  <Container
+  <Box
     backgroundColorBlack
     backgroundColorGreen={isWeatherGood}
     colorWhite
     fontWeight700
     padding='20px'
   >
-    Container is green when weather is good
-  </Container>
+    Box is green when weather is good
+  </Box>
 )
 ```

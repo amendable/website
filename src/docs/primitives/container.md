@@ -1,9 +1,9 @@
 import Amendable from '../Amendable'
 
-# Container
+# Box
 
-Container is the most basic primitive of <Amendable />.
-Every other primitive builds on this `Container` and passes all the props to
+Box is the most basic primitive of <Amendable />.
+Every other primitive builds on this `Box` and passes all the props to
 this one.
 
 To stay consistent, it is advisable to use it in places where you'd
@@ -11,16 +11,16 @@ otherwise use a `div` or `span` HTML tag.
 
 ```jsx sandbox
 import { render } from 'react-dom'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 
 render(
-  <Container backgroundColor='black' color='white' padding='20px'>
+  <Box backgroundColor='black' color='white' padding='20px'>
     A container
-  </Container>
+  </Box>
 )
 ```
 
-`Container` accepts all CSS properties as camelCased `props`
+`Box` accepts all CSS properties as camelCased `props`
 which then are merged into the `style` property.
 
 From the design rhytmn perspective, it is advised to always use naked sizes -
@@ -30,7 +30,7 @@ you will ensure that your whole design will be with a common rhythm.
 
 ## Props
 
-`Container` has some useful <Amendable />-related props. The rest of the props are
+`Box` has some useful <Amendable />-related props. The rest of the props are
 passed to the underlying `component`.
 
 | Prop                                                                              | Default     | Description                                           |

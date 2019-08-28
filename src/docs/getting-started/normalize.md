@@ -27,16 +27,16 @@ npm install candour-normalize --save
 ```jsx sandbox
 import React from 'react'
 import { render } from 'react-dom'
-import Container, { AmendableProvider } from '@amendable/core'
+import Box, { AmendableProvider } from '@amendable/core'
 import CandourNormalize from 'candour-normalize'
 
 render(
   <AmendableProvider>
     <CandourNormalize />
 
-    <Container>
+    <Box>
       Normalized text
-    </Container>
+    </Box>
   </AmendableProvider>,
   document.getElementById('root')
 )

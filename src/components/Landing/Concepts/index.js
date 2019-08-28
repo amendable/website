@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import Heading from '../../Heading'
 import Text from '../../Text'
 
@@ -18,7 +18,7 @@ export default ({
     },
   },
 }) => (
-  <Container padding paddingTop={5} limited>
+  <Box padding paddingTop={5} limited>
     <Heading level={1} fontWeight700 colorLightGrey>
       Concepts
     </Heading>
@@ -53,5 +53,5 @@ export default ({
         Learn more about resolvers
       </MoreLink>
     </Concept>
-  </Container>
+  </Box>
 )

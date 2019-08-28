@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 import _ from 'lodash'
-import Container from '@amendable/core'
+import Box from '@amendable/core'
 import Heading from '../../../Heading'
 import Text from '../../../Text'
 import Code from '../../../Code'
@@ -15,9 +15,9 @@ const inlineCode = props => (
 )
 
 const table = props => (
-  <Container overflowXAuto marginBottom={2}>
-    <Container component='table' {...props} />
-  </Container>
+  <Box overflowXAuto marginBottom={2}>
+    <Box component='table' {...props} />
+  </Box>
 )
 
 const th = props => (
@@ -32,7 +32,7 @@ const th = props => (
   />
 )
 
-const td = props => <Container
+const td = props => <Box
   component='td'
   padding
   borderBottom={borders.light}
@@ -40,7 +40,7 @@ const td = props => <Container
 />
 
 const strong = props => <Text component='strong' fontWeight600 {...props} />
-const hr = props => <Container paddingBottom {...props} />
+const hr = props => <Box paddingBottom {...props} />
 
 const a = ({ href, ...props }) => {
   if (_.startsWith(href, '/')) {
@@ -62,15 +62,15 @@ const a = ({ href, ...props }) => {
     )
   }
 }
-const ul = props => <Container component='ul' marginTop={-1} paddingBottom {...props} />
+const ul = props => <Box component='ul' marginTop={-1} paddingBottom {...props} />
 const li = props => (
-  <Container component='li' displayFlex>
+  <Box component='li' displayFlex>
     <Text paddingRight={.5}>-</Text> <Text {...props} />
-  </Container>
+  </Box>
 )
 
 const p = props => <Text marginBottom {...props} />
-const blockquote = props => <Container paddingLeft borderLeftAqua borderWidth={.5} {...props} />
+const blockquote = props => <Box paddingLeft borderLeftAqua borderWidth={.5} {...props} />
 
 export default {
   h1: heading(1),
