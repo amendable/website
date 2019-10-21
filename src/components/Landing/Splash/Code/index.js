@@ -1,7 +1,4 @@
 import React from 'react'
-import {
-  useBreakpoints,
-} from 'candour'
 import Box from '@amendable/core'
 import CodeWithSandbox from '../../../CodeWithSandbox'
 import example from './example.txt'
@@ -16,19 +13,15 @@ const wrapper = (code) => `
   )
 `
 
-export default () => {
-  const { small } = useBreakpoints()
-
-  return (
-    <Box minWidth25={!small}>
-      <CodeWithSandbox
-        editable
-        sandbox
-        wrapper={wrapper}
-        level={5}
-      >
-        {example}
-      </CodeWithSandbox>
-    </Box>
-  )
-}
+export default () => (
+  <Box minWidth={{ sm: 25 }}>
+    <CodeWithSandbox
+      editable
+      sandbox
+      wrapper={wrapper}
+      level={5}
+    >
+      {example}
+    </CodeWithSandbox>
+  </Box>
+)

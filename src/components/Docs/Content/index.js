@@ -1,8 +1,5 @@
 import React from 'react'
 import Box from '@amendable/core'
-import {
-  useBreakpoints,
-} from 'candour'
 import { AmendableProvider } from '@amendable/core'
 
 import amendableResolvers from '../../../theme/amendableResolvers'
@@ -15,10 +12,9 @@ import components from './lib/components'
 
 export default (props) => {
   const CurrentComponent = current(props).component
-  const { small } = useBreakpoints()
 
   return (
-    <Box padding paddingLeft={small ? 1 : 2} paddingRight={small ? 1 : 2} paddingBottom={6} width='100%'>
+    <Box padding paddingX={{ xs: 1, md: 2 }} paddingBottom={6} width='100%'>
       <Text readable>
         <AmendableProvider
           resolvers={amendableResolvers}
