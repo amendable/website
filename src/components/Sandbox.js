@@ -3,9 +3,6 @@ import CodeSandbox from 'react-code-sandbox'
 import Box, { AmendableProvider } from '@amendable/core'
 import { Link as RouterLink } from 'react-router-dom'
 import ErrorBoundary from 'react-error-boundary'
-import {
-  useBreakpoints,
-} from 'candour'
 import CandourNormalize from 'candour-normalize'
 import fluidScale from '@amendable/fluid-scale'
 import colors from '@amendable/colors'
@@ -31,7 +28,6 @@ export default props => (
             CandourNormalize,
             fluidScale,
             colors,
-            useBreakpoints,
             inlineStyles,
           }}
           {...props}

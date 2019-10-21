@@ -1,25 +1,17 @@
 import React from 'react'
-import { useAmendable } from '@amendable/core'
-import {
-  useBreakpoints,
-} from 'candour'
+import Box from '@amendable/core'
 import Link from '../../Link'
 
-export default ({ href, src, ...rest }) => {
-  const { small } = useBreakpoints()
-  const { style } = useAmendable({
-    component: 'img',
-    backgroundSize: 'contain',
-    height: small ? 'auto' : 11,
-    width: small ? '100%' : 'auto',
-    rounded: true,
-    boxShadow: '0 3px 10px hsla(0, 0%, 0%, 0.3)',
-    ...rest,
-  })
-
-  return (
-    <Link href={href} target='_blank'>
-      <img style={style} src={src} />
-    </Link>
-  )
-}
+export default ({ href, ...rest }) => (
+  <Link href={href} target='_blank'>
+    <Box
+      component='img'
+      backgroundSize='contain'
+      height={{ xs: 'auto', md: 11 }}
+      width={{ xs: '100%', md: 'auto' }}
+      rounded
+      boxShadow='0 3px 10px hsla(0, 0%, 0%, 0.3)'
+      {...rest}
+    />
+  </Link>
+)

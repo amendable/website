@@ -1,4 +1,6 @@
 import fluidScale from '@amendable/fluid-scale'
+import spacingAliases from '@amendable/spacing-aliases'
+import breakpoints from '@amendable/breakpoints'
 import amendableColors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
 import styleShorthands from '@amendable/style-shorthands'
@@ -56,6 +58,8 @@ const levels = () => ({
 
 export default [
   amendableModifiers({ modifiers }),
+  spacingAliases(),
+  breakpoints(),
   levels(),
   styleShorthands(),
   amendableColors({ colors }),
