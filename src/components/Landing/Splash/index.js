@@ -13,7 +13,7 @@ export default (props) => (
     paddingBottom={3}
     limited
   >
-    <Box maxWidth={30} textAlignCenter margin='0 auto'>
+    <Box maxWidth={22} textAlignCenter margin='0 auto'>
       <Box
         fontSize={2}
         lineHeight={1.25}
@@ -21,7 +21,7 @@ export default (props) => (
         paddingBottom={3}
         tight
       >
-        Next-gen React Abstraction Layer for design systems
+        React Abstraction Layer for better design systems
       </Box>
     </Box>
 
