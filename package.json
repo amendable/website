@@ -6,7 +6,7 @@
     "@amendable/colors": "^0.0.6",
     "@amendable/core": "^0.0.7-beta.0",
     "@amendable/fluid-scale": "^0.0.2",
-    "@amendable/inline-styles": "^0.0.7",
+    "@amendable/inline-styles": "^0.0.8",
     "@amendable/style-shorthands": "^0.0.2",
     "@babel/core": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
@@ -20,7 +20,6 @@
     "candour-font-families": "^2.0.0",
     "candour-normalize": "^1.0.3",
     "css-properties": "^2.0.2",
-    "honestive-react-roadmap": "honestive/honestive-react-roadmap",
     "libreact": "^2.13.1",
     "mdx": "^0.3.1",
     "prismjs": "^1.17.1",
@@ -51,6 +50,6 @@
   "devDependencies": {
     "@babel/plugin-transform-react-constant-elements": "^7.5.0",
     "@babel/preset-env": "^7.5.5",
-    "raw-loader": "^0.5.1"
+    "raw-loader": "^3.1.0"
   }
 }
