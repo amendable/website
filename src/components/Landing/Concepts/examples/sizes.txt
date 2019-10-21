@@ -7,7 +7,7 @@ import inlineStyles from '@amendable/inline-styles'
 render(
   <AmendableProvider
     resolvers={[
-      colors({ colors: { primary: '#66fcd9' } }),
+      colors({ colors: { primary: 'hsla(219, 100%, 55%, 1)' } }),
       fluidScale(),
       inlineStyles(),
     ]}
@@ -16,6 +16,7 @@ render(
       backgroundColor='primary'
       fontWeight={700}
       padding={1}
+      color='white'
     >
       Sizes
     </Box>

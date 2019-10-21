@@ -25,6 +25,15 @@
     lodash "^4.17.15"
     stylis "^3.5.4"
 
+"@amendable/expand-style-shorthands@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@amendable/expand-style-shorthands/-/expand-style-shorthands-0.0.2.tgz#3335a699c7bf048b62a19f07d0c57c5a63f83b97"
+  integrity sha512-Wexj/XMJNVTk9B1EMj+7KQrY07oy3MQKUML4/yWNYE8D/+m7Blv1fW8Ks0hz8Qv7zoyoi2ETylwwZET7oxJuJQ==
+  dependencies:
+    inline-style-expand-shorthand "^1.1.1"
+    is-number "^7.0.0"
+    lodash "^4.17.11"
+
 "@amendable/fluid-scale@^0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@amendable/fluid-scale/-/fluid-scale-0.0.2.tgz#70db146a9f56d8344d8941ff72b23d62185a19c6"
@@ -5756,6 +5765,11 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+
+inline-style-expand-shorthand@^1.1.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/inline-style-expand-shorthand/-/inline-style-expand-shorthand-1.2.0.tgz#951ed9918ba9fe87af0e11c20fd2fb1f5075cae2"
+  integrity sha512-YdteDMlG1StHeEXF7opaVfPMCIVO8B4TPjE6kZLwdhZdgjH3Q7lxwSe+89sMhdPN77F3quOYhBbqBE0+KXuHpA==
 
 inline-style-prefixer@^4.0.0:
   version "4.0.2"

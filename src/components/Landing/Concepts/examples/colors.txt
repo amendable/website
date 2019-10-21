@@ -6,7 +6,7 @@ import inlineStyles from '@amendable/inline-styles'
 render(
   <AmendableProvider
     resolvers={[
-      colors({ colors: { primary: '#66fcd9' } }),
+      colors({ colors: { primary: '#055cff' } }),
       inlineStyles(),
     ]}
   >

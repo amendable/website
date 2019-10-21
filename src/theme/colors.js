@@ -1,5 +1,6 @@
 export default {
   blue: 'hsla(219, 100%, 51%, 1)',
+  transparentBlue: 'hsla(219, 100%, 51%, 0.1)',
   'light-blue': 'hsla(219, 100%, 97%, 1)',
   white: '#fff',
   black: '#000',
@@ -8,5 +9,5 @@ export default {
   grey: '#666666',
   'light-grey': '#CECFCE',
   red: '#EE3831',
-  aqua: '#66fcd9',
+  aqua: 'hsla(219, 100%, 51%, 1)',
 }

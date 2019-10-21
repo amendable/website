@@ -6,6 +6,7 @@
     "@amendable/breakpoints": "^0.0.3",
     "@amendable/colors": "^0.0.6",
     "@amendable/core": "^0.0.7-beta.0",
+    "@amendable/expand-style-shorthands": "^0.0.2",
     "@amendable/fluid-scale": "^0.0.2",
     "@amendable/inline-style-properties": "^0.3.0",
     "@amendable/inline-styles": "^0.0.8",
