@@ -6,7 +6,7 @@ import Amendable from '../Amendable'
 internally.
 
 You won't usually use the `style` prop directly since <Amendable /> abstracts it
-through its modifiers and theming, but using inline styles provides
+through resolvers. Anyways - using inline styles provides
 many advantages over using CSS class names.
 
 If you're skeptical about this, you can check out
