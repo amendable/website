@@ -4,9 +4,9 @@ import Amendable from '../Amendable'
 
 To install the library:
 ```
-yarn add candour
+yarn add @amendable/core
 # or
-npm install candour --save
+npm install @amendable/core --save
 ```
 
 ## Setup
