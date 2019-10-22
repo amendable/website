@@ -12,25 +12,25 @@
     "@amendable/inline-styles": "^0.0.8",
     "@amendable/spacing-aliases": "^0.0.2",
     "@amendable/style-shorthands": "^0.0.2",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-react": "^7.6.3",
     "@mdx-js/loader": "^0.16.0",
     "@mdx-js/tag": "^0.16.0",
-    "candour-normalize": "^1.0.3",
-    "libreact": "^2.13.1",
+    "candour-normalize": "^1.0.4",
+    "libreact": "^2.13.2",
     "mdx": "^0.3.1",
     "prismjs": "^1.17.1",
-    "radium": "^0.25.2",
-    "react": "16.9.0",
+    "radium": "^0.26.0",
+    "react": "16.10.2",
     "react-code-sandbox": "^1.0.0",
-    "react-dom": "16.9.0",
+    "react-dom": "16.10.2",
     "react-error-boundary": "^1.2.5",
     "react-helmet": "^5.2.1",
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^5.1.2",
     "react-router-scroll-4": "^1.0.0-beta.2",
     "react-scripts": "2.1.1",
     "react-scripts-rewired": "2.1.1",
-    "react-simple-code-editor": "^0.7.1"
+    "react-simple-code-editor": "^0.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,8 +45,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/plugin-transform-react-constant-elements": "^7.5.0",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/plugin-transform-react-constant-elements": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
     "raw-loader": "^3.1.0"
   }
 }
