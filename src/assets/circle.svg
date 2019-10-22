@@ -6,7 +6,7 @@
     <g id="Page-1" stroke="none" stroke-width="1">
         <g id="Group" transform="translate(1.000000, 1.000000)">
             <circle id="Oval" cx="104" cy="105" r="100"></circle>
-            <circle id="Oval" stroke="#000000" stroke-linecap="round" cx="100" cy="100" r="100"></circle>
+            <circle id="Oval" stroke="#045CFF" stroke-linecap="round" cx="100" cy="100" r="100"></circle>
         </g>
     </g>
 </svg>

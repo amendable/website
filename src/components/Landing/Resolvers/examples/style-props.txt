@@ -2,5 +2,5 @@
   fontWeight={700}
   textAlign='center'
 >
-  It's magic
+  Styled via props
 </Box>

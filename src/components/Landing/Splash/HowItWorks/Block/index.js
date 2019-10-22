@@ -7,8 +7,8 @@ export default ({
 }) => (
   <Box display='flex' marginX={0.5}>
     <Box
-      backgroundColor='transparentBlue'
-      border='3px solid blue'
+      backgroundColor='transparent-blue'
+      border='1px solid blue'
       padding={1}
       borderRadius='10px'
     >

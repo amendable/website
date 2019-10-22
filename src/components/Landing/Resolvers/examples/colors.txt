@@ -1,0 +1,17 @@
+<AmendableProvider
+  resolvers={[
+    colors({
+      colors: {
+        primary: '#055cff',
+      },
+    }),
+    inlineStyles(),
+  ]}
+>
+  <Box
+    color='primary'
+    fontWeight={700}
+  >
+    Primary color
+  </Box>
+</AmendableProvider>

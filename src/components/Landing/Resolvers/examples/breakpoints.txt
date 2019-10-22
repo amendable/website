@@ -1,0 +1,12 @@
+<AmendableProvider
+  resolvers={[
+    breakpoints(),
+    inlineStyles(),
+  ]}
+>
+  <Box
+    color={{ xs: 'red', lg: 'blue' }}
+  >
+    This will be red on small screens and blue on desktops+.
+  </Box>
+</AmendableProvider>

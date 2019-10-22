@@ -7,6 +7,8 @@ import CandourNormalize from 'candour-normalize'
 import fluidScale from '@amendable/fluid-scale'
 import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
+import scale from '@amendable/scale'
+import breakpoints from '@amendable/breakpoints'
 
 const Fallback = ({ error }) => (
   <Box colorRed padding={2} whiteSpacePreWrap fontFamilyMonospace>
@@ -29,6 +31,8 @@ export default props => (
             fluidScale,
             colors,
             inlineStyles,
+            scale,
+            breakpoints,
           }}
           {...props}
         />

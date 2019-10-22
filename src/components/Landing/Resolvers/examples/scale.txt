@@ -1,0 +1,19 @@
+<AmendableProvider
+  resolvers={[
+    scale({
+      base: 10,
+    }),
+    inlineStyles(),
+  ]}
+>
+  <Box
+    padding={1}
+    width={30}
+    height={10}
+    backgroundColor='black'
+    color='white'
+  >
+    This uses a scale of 10, so it has a padding of 10px, width of 300px
+    and height of 100px.
+  </Box>
+</AmendableProvider>

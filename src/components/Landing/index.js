@@ -2,13 +2,13 @@ import React from 'react'
 import Box from '@amendable/core'
 
 import Splash from './Splash'
-import Concepts from './Concepts'
+import Resolvers from './Resolvers'
 import Users from './Users'
 
-export default (props) => (
+export default () => (
   <Box>
     <Splash />
-    <Concepts {...props} />
+    <Resolvers />
     <Users />
   </Box>
 )
