@@ -1,11 +1,8 @@
 import React from 'react'
 import Box from '@amendable/core'
 import Heading from '../../Heading'
-import Text from '../../Text'
 
 import Resolver from './Resolver'
-import ConverterLink from './ConverterLink'
-import MoreLink from './MoreLink'
 import styleProps from './examples/style-props.txt'
 import colors from './examples/colors.txt'
 import scale from './examples/scale.txt'

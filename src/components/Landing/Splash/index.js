@@ -1,9 +1,6 @@
 import React from 'react'
 import Box from '@amendable/core'
-import { Link as RouterLink } from 'react-router-dom'
-import Code from './Code/index'
-import Point from './Point/index'
-import Button from '../../Button'
+// import Point from './Point/index'
 import HowItWorks from './HowItWorks'
 
 export default (props) => (
