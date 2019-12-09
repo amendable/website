@@ -10,14 +10,14 @@ export default (props) => (
     paddingBottom={3}
     limited
   >
-    <Box maxWidth={35} textAlignCenter margin='0 auto'>
+    <Box maxWidth={25} textAlignCenter margin='0 auto'>
       <Box
-        fontSize={2}
+        fontSize={3}
         lineHeight={1.25}
         fontWeight={700}
         paddingBottom={3}
       >
-        An open source React library for reusable component architecture
+        Redefine any React component prop easily.
       </Box>
     </Box>
 
