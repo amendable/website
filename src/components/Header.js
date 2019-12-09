@@ -16,7 +16,6 @@ export default (props) => (
     padding
     paddingTop={1.5}
     paddingBottom={1.5}
-    fontWeight700
   >
     <Link component={RouterLink} to='/' displayFlex alignItemsCenter>
       <LogoBlock />
@@ -28,10 +27,9 @@ export default (props) => (
       <Link
         component={RouterLink}
         to='/docs/overview'
-        textTransformUppercase
         level={8}
         marginLeft={3}
-        color='hsla(0, 0%, 40%, 1)'
+        fontWeight='normal'
       >
         Docs
       </Link>
@@ -40,8 +38,7 @@ export default (props) => (
         target='_blank'
         marginLeft={3}
         level={8}
-        textTransformUppercase
-        color='hsla(0, 0%, 40%, 1)'
+        fontWeight='normal'
       >
         GitHub
       </Link>

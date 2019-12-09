@@ -22,11 +22,16 @@ render(
   <AmendableProvider
     resolvers={[
       fluidScale(),
-      colors({ colors: { aqua: '#66fcd9' } }),
+      colors({ colors: { blue: '#0055ff' } }),
       inlineStyles(),
     ]}
   >
-    <Box backgroundColor='aqua' fontWeight={700} padding={2}>
+    <Box
+      backgroundColor='blue'
+      color='white'
+      fontWeight={700}
+      padding={2}
+    >
       Amendable
     </Box>
   </AmendableProvider>

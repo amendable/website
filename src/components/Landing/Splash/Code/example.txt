@@ -1,5 +1,5 @@
 <Box
-  backgroundColor='aqua'
+  backgroundColor='blue'
   padding={1}
   fontWeight={700}
 >

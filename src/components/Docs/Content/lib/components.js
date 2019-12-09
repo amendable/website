@@ -9,7 +9,7 @@ import Link from '../../../Link'
 import CodeWithSandbox from '../../../CodeWithSandbox'
 import borders from '../../../../theme/borders'
 
-const heading = level => props => <Heading level={level} {...props} />
+const heading = level => props => <Heading level={level} fontWeight='bold' paddingY={1} {...props} />
 const inlineCode = props => (
   <Code display='inline' padding={0} paddingLeft={0.25} paddingRight={0.25} {...props} />
 )
@@ -62,15 +62,23 @@ const a = ({ href, ...props }) => {
     )
   }
 }
-const ul = props => <Box component='ul' marginTop={-1} paddingBottom {...props} />
+const ul = props => <Box component='ul' marginTop={-0.75} paddingBottom {...props} />
 const li = props => (
-  <Box component='li' displayFlex>
+  <Box component='li' displayFlex paddingY={0.25}>
     <Text paddingRight={.5}>-</Text> <Text {...props} />
   </Box>
 )
 
 const p = props => <Text marginBottom {...props} />
-const blockquote = props => <Box paddingLeft borderLeftAqua borderWidth={.5} {...props} />
+const blockquote = props => (
+  <Box
+    marginY={2}
+    paddingLeft
+    borderLeftBlue
+    borderWidth={.5}
+    {...props}
+  />
+)
 
 export default {
   h1: heading(1),

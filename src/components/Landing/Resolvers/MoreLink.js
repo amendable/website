@@ -11,7 +11,7 @@ export default (props) => (
       displayInlineBlock
       marginTop
       fontWeight700
-      borderBottomAqua
+      borderBottomBlue
       {...props}
     />
   </Box>

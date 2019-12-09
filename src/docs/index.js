@@ -7,7 +7,6 @@ import ResolversFluidScale from './resolvers/fluid-scale.md'
 import ResolversColors from './resolvers/colors.md'
 import ResolversCreateNew from './resolvers/create-new.md'
 import GettingStartedInstall from './getting-started/install.md'
-import GettingStartedNormalize from './getting-started/normalize.md'
 import PrimitivesContainer from './primitives/container.md'
 import AmendableProvider from './amendable-provider.md'
 import Faq from './faq.md'
@@ -21,18 +20,7 @@ export default [
   {
     name: 'Getting started',
     slug: 'getting-started',
-    items: [
-      {
-        name: 'Install',
-        slug: 'getting-started/install',
-        component: GettingStartedInstall,
-      },
-      {
-        name: 'Normalize',
-        slug: 'getting-started/normalize',
-        component: GettingStartedNormalize,
-      },
-    ],
+    component: GettingStartedInstall,
   },
   {
     name: 'Style props',

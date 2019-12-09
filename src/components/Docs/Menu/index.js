@@ -6,7 +6,16 @@ import docs from '../../../docs/index'
 import Items from './Items'
 
 export default (props) => (
-  <Box padding borderRightLight minWidth={12} minHeight='100vh'>
+  <Box
+    padding
+    borderRightLight
+    minWidth={15}
+    minHeight='100vh'
+    backgroundColor='grey1'
+    display='flex'
+    flexDirection='column'
+    flexGrow={1}
+  >
     <Items items={docs} {...props} />
 
     <Link

@@ -8,7 +8,7 @@ export default () => (
     component={CheckmarkIcon}
     width
     height
-    fill='aqua'
+    fill='blue'
     marginRight={.3}
   />
 )

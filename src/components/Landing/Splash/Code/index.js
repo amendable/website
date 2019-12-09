@@ -6,7 +6,7 @@ import example from './example.txt'
 const wrapper = (code) => `
   render(
     <AmendableProvider
-      resolvers={[fluidScale(), colors({ colors: { aqua: '#66FCD9' } }), inlineStyles()]}
+      resolvers={[fluidScale(), colors({ colors: { blue: '#0055ff' } }), inlineStyles()]}
     >
       ${code}
     </AmendableProvider>

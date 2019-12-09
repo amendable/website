@@ -11,7 +11,7 @@ import Sandbox from './Sandbox'
 import Code from './Code'
 
 export default ({ sandbox, editable, wrapper, children, ...rest }) => {
-  const editorContainerStyle = useAmendable({ minWidth: '100%' })
+  const editorContainerStyle = useAmendable({ minWidth: '100%', marginBottom: 2 })
   const [code, setCode] = useState(children)
 
   return (

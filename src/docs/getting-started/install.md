@@ -23,13 +23,13 @@ import Box, { AmendableProvider } from '@amendable/core'
 render(
   <AmendableProvider
     resolvers={[
-      colors({ colors: { aqua: '#66fcd9' } }),
+      colors({ colors: { blue: '#0055ff' } }),
       inlineStyles(),
     ]}
   >
     Your app here
 
-    <Box color='aqua'>
+    <Box color='blue'>
       Box can be used anywhere in the app
     </Box>
   </AmendableProvider>,

@@ -1,7 +1,7 @@
 import colors from './colors'
 
 export default {
-  light: `1px solid hsla(195, 40%, 90%, 1)`,
+  light: `1px solid ${colors.grey2}`,
   black: `1px solid ${colors.black}`,
-  aqua: `1px solid ${colors.aqua}`,
+  blue: `1px solid ${colors.blue}`,
 }
