@@ -41,8 +41,8 @@ const modifiers = {
 }
 
 const amendableModifiers = ({
-  match = ({ key }) => modifiers[key],
   modifiers,
+  match = ({ key }) => modifiers[key],
 }) => ({
   match,
   resolve: ({ key, value }) => modifiers[key],

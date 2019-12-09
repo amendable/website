@@ -6,8 +6,8 @@ import ResolversOverview from './resolvers/overview.md'
 import ResolversFluidScale from './resolvers/fluid-scale.md'
 import ResolversColors from './resolvers/colors.md'
 import ResolversCreateNew from './resolvers/create-new.md'
-import GettingStartedInstall from './getting-started/install.md'
-import PrimitivesContainer from './primitives/container.md'
+import GettingStarted from './getting-started.md'
+import Box from './box.md'
 import AmendableProvider from './amendable-provider.md'
 import Faq from './faq.md'
 
@@ -20,28 +20,7 @@ export default [
   {
     name: 'Getting started',
     slug: 'getting-started',
-    component: GettingStartedInstall,
-  },
-  {
-    name: 'Style props',
-    slug: 'style-props',
-    items: [
-      {
-        name: 'Usage',
-        slug: 'style-props/usage',
-        component: StylePropsUsage,
-      },
-      {
-        name: 'List',
-        slug: 'style-props/list',
-        component: StylePropsList,
-      },
-      {
-        name: 'Why inline styles',
-        slug: 'style-props/why-inline-styles',
-        component: StylePropsWhyInlineStyles,
-      },
-    ],
+    component: GettingStarted,
   },
   {
     name: 'Resolvers',
@@ -78,7 +57,7 @@ export default [
   {
     name: '<Box />',
     slug: 'box',
-    component: PrimitivesContainer,
+    component: Box,
     isCode: true,
   },
   {

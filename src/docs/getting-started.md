@@ -1,6 +1,6 @@
-import Amendable from '../Amendable'
+import Amendable from './Amendable'
 
-# Install
+# Getting started
 
 To install the library:
 ```

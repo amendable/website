@@ -67,6 +67,13 @@
   dependencies:
     is-number "^7.0.0"
 
+"@amendable/scale@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@amendable/scale/-/scale-0.0.3.tgz#c7fea21aedf3442dbda16a4fc83ad99057eda9ee"
+  integrity sha512-ZaKt8N+C93x+88UMmiV3mhFnybDJerBV72oeD8STZMTN9QTNxPV85tEtFCk1TO1mwlBgQfZ9EnlsrNXd9ODBaA==
+  dependencies:
+    is-number "^7.0.0"
+
 "@amendable/spacing-aliases@^0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@amendable/spacing-aliases/-/spacing-aliases-0.0.2.tgz#991b9ea5260fded9bafb92ddce8a54e2a65ae246"

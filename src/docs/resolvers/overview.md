@@ -1,56 +1,48 @@
-# Overview of style value resolvers
+# Resolvers overview
 
-Style value resolvers are useful when defining colors,
+Resolvers are useful when defining colors,
 borders or any other custom style values that are going to be reused.
 
 ## Setup
 
-To set up style value resolvers, pass `resolvers` array to the `AmendableProvider`.
+To set up resolvers, pass `resolvers` array to the `AmendableProvider`.
 
 ```jsx sandbox
 import React from 'react'
 import { render } from 'react-dom'
 import Box, { AmendableProvider } from '@amendable/core'
-import fluidScale from '@amendable/fluid-scale'
+import scale from '@amendable/scale'
 import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
 
 render(
   <AmendableProvider
     resolvers={[
-      fluidScale(),
+      scale({ base: 16 }),
       colors({ colors: { raddish: '#D41E5C' } }),
       inlineStyles()
     ]}
   >
     <Box fontSize={2}>
-      Size style values will be resolved with fluid steps resolvers
+      Size style values will be resolved with scale resolver and multiplied by 16
     </Box>
 
     <Box color='raddish'>
-      Color style values will be resolved with colors resolvers
+      Color style values will be resolved with colors resolver
     </Box>
   </AmendableProvider>,
   document.getElementById('root')
 )
 ```
 
-## Usage
+### Value names
 
-You can use both shorthand `colorRaddish` and longhand `color='raddish'`
-syntax with all resolvers. You can also use them in your [theme](/docs/theme/base).
-
-### Style value naming
-
-Redefined value names need to follow CSS style `kebab-case` format.
+It is best is the redefined value names follow CSS style `kebab-case` format.
 
 To define a multi-word color:
 ```
 { 'light-red': '#D45D8A' }
 ```
-
-If you define it as `light-red`, you can still use it from the primitives
-as `colorLightRed` or `color='light-red'`.
 
 ## List of available resolvers and their usage
 

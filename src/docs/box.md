@@ -1,13 +1,9 @@
-import Amendable from '../Amendable'
+import Amendable from './Amendable'
 
 # Box
 
-Box is the most basic primitive of <Amendable />.
-Every other primitive builds on this `Box` and passes all the props to
-this one.
-
-To stay consistent, it is advisable to use it in places where you'd
-otherwise use a `div` or `span` HTML tag.
+Box is the only primitive of <Amendable />. The purpose of this component is to
+accept the props, resolve them through resolvers and pass the resulting props forward.
 
 ```jsx sandbox
 import { render } from 'react-dom'
@@ -19,14 +15,6 @@ render(
   </Box>
 )
 ```
-
-`Box` accepts all CSS properties as camelCased `props`
-which then are merged into the `style` property.
-
-From the design rhytmn perspective, it is advised to always use naked sizes -
-`padding={2}` and so on instead of specifying `px` or `em`.
-They are automatically converted to steps. By doing that,
-you will ensure that your whole design will be with a common rhythm.
 
 ## Props
 

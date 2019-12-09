@@ -28,6 +28,7 @@ export default ({
       component={RouterLink}
       to={to(slug, items)}
       fontWeight700={params[0] === slug}
+      color={params[0] === slug ? 'blue' : 'black'}
       displayBlock
       marginBottom
       fontFamily={isCode ? 'monospace' : 'inherit'}

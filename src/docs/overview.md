@@ -7,6 +7,7 @@ prop, easily.
 
 - Minimal surface layer
 - Anything is possible - extensible
+- Typescript support (coming soon!)
 
 **Use for design systems:**
 - Maintain consistent colors and sizes
