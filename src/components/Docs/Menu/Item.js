@@ -12,6 +12,7 @@ const to = (slug, items) => (
 
 export default ({
   slug,
+  isCode,
   name,
   items = [],
   match: {
@@ -29,6 +30,7 @@ export default ({
       fontWeight700={params[0] === slug}
       displayBlock
       marginBottom
+      fontFamily={isCode ? 'monospace' : 'inherit'}
     >
       {name}
     </Link>

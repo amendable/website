@@ -64,7 +64,7 @@ const a = ({ href, ...props }) => {
 }
 const ul = props => <Box component='ul' marginTop={-0.75} paddingBottom {...props} />
 const li = props => (
-  <Box component='li' displayFlex paddingY={0.25}>
+  <Box component='li' displayFlex paddingY={0.15}>
     <Text paddingRight={.5}>-</Text> <Text {...props} />
   </Box>
 )

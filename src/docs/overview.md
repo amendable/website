@@ -2,14 +2,21 @@ import Amendable from './Amendable'
 
 # Overview
 
- <Amendable marginLeft={-.2} /> is a fully configurable inline style system
-for React.
+ <Amendable marginLeft={-.2} /> allows you to redefine any React component
+prop, easily.
 
-**Core features:**
-- Nothing to learn [inline style API](/docs/style-props/usage)
-- [Redefine](/docs/resolvers/overview) CSS values and
-[modify](/docs/theme/modifiers) component styles
-- Maintain a consistent component [theme](/docs/theme/base)
+- Minimal surface layer
+- Anything is possible - extensible
+
+**Use for design systems:**
+- Maintain consistent colors and sizes
+- [Redefine](/docs/resolvers/overview) CSS values and easily use them
+- Pass component style props to children easily via
+[inline style API](/docs/style-props/usage) without worrying they end up in DOM
+
+**Use for multi-platform development:**
+- Resolve the same component one way in web and another way in mobile
+- Use the same set of component props in React and in React Native
 
 ```jsx sandbox
 import { render } from 'react-dom'
@@ -42,8 +49,7 @@ render(
 
 React ecosystem is absolutely thriving. There are many great attempts at
 **design systems**, but none are built on
-[**inline CSS styles**](/docs/style-props/why-inline-styles) and are
-easily **maintainable**.
+**totally configurable** for production systems and easily **maintainable**.
 
 The goal of <Amendable /> is to enable building powerful design systems through
 total configurability.

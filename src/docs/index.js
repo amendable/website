@@ -70,20 +70,16 @@ export default [
     ],
   },
   {
-    name: 'AmendableProvider',
+    name: '<AmendableProvider />',
     slug: 'amendable-provider',
     component: AmendableProvider,
+    isCode: true,
   },
   {
-    name: 'Primitives',
-    slug: 'primitives',
-    items: [
-      {
-        name: 'Box',
-        slug: 'primitives/box',
-        component: PrimitivesContainer,
-      },
-    ],
+    name: '<Box />',
+    slug: 'box',
+    component: PrimitivesContainer,
+    isCode: true,
   },
   {
     name: 'FAQ',
