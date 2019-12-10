@@ -1,7 +1,4 @@
 import Overview from './overview.md'
-import StylePropsUsage from './style-props/usage.md'
-import StylePropsList from './style-props/list.md'
-import StylePropsWhyInlineStyles from './style-props/why-inline-styles.md'
 import ResolversOverview from './resolvers/overview.md'
 import ResolversFluidScale from './resolvers/fluid-scale.md'
 import ResolversColors from './resolvers/colors.md'
