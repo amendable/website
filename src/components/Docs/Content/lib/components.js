@@ -69,13 +69,16 @@ const li = props => (
   </Box>
 )
 
-const p = props => <Text marginBottom {...props} />
+const p = props => <Text marginBottom lineHeight={1.5} {...props} />
 const blockquote = props => (
   <Box
     marginY={2}
-    paddingLeft
     borderLeftBlue
     borderWidth={.5}
+    borderRadius={4 / 16}
+    backgroundColor='blue1'
+    padding={0.5}
+    paddingLeft={1}
     {...props}
   />
 )

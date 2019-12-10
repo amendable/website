@@ -1,5 +1,6 @@
 export default {
   blue: '#0055FF',
+  blue1: 'hsla(220, 100%, 98%, 1)',
   'transparent-blue': 'hsla(219, 100%, 51%, 0.1)',
   'light-blue': 'hsla(219, 100%, 97%, 1)',
   white: '#fff',

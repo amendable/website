@@ -13,7 +13,6 @@ export default (props) => (
     <Box maxWidth={25} textAlignCenter margin='0 auto'>
       <Box
         fontSize={3}
-        lineHeight={1.25}
         fontWeight={700}
         paddingBottom={3}
       >
