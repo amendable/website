@@ -16,12 +16,12 @@ import inlineStyles from '@amendable/inline-styles'
 render(
   <AmendableProvider
     resolvers={[
-      colors({ colors: { raddish: '#D41E5C', red: '#F5BCCF' } }),
+      colors({ colors: { primary: '#0055ff', red: '#F5BCCF' } }),
       inlineStyles(),
     ]}
   >
-    <Box color='raddish' backgroundColor='red'>
-      Raddish color
+    <Box color='primary' backgroundColor='red'>
+      Primary color
     </Box>
   </AmendableProvider>
 )

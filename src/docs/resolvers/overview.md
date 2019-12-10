@@ -1,7 +1,7 @@
 # Resolvers overview
 
 Resolvers are useful when defining colors,
-borders or any other custom style values that are going to be reused.
+borders or any other custom values that are going to be reused.
 
 ## Setup
 
@@ -19,7 +19,7 @@ render(
   <AmendableProvider
     resolvers={[
       scale({ base: 16 }),
-      colors({ colors: { raddish: '#D41E5C' } }),
+      colors({ colors: { primary: '#0055ff' } }),
       inlineStyles()
     ]}
   >
@@ -27,7 +27,7 @@ render(
       Size style values will be resolved with scale resolver and multiplied by 16
     </Box>
 
-    <Box color='raddish'>
+    <Box color='primary'>
       Color style values will be resolved with colors resolver
     </Box>
   </AmendableProvider>,

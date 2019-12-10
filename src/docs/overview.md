@@ -5,15 +5,14 @@ import Amendable from './Amendable'
  <Amendable marginLeft={-.2} /> allows you to redefine any React component
 prop, easily.
 
-- Minimal surface layer
-- Anything is possible - extensible
-- Typescript support (coming soon!)
+- Minimal surface layer (2 new components only), optimized for performance
+- Extensible to virtually any use-case
+- Typescript support ([coming soon](https://github.com/amendable/core/issues/2))
 
 **Use for design systems:**
 - Maintain consistent colors and sizes
 - [Redefine](/docs/resolvers/overview) CSS values and easily use them
-- Pass component style props to children easily via
-[inline style API](/docs/style-props/usage) without worrying they end up in DOM
+- Pass component inline style props without worrying they end up as warnings in DOM
 
 **Use for multi-platform development:**
 - Resolve the same component one way in web and another way in mobile

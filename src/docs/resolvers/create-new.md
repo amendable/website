@@ -18,7 +18,7 @@ render(
   <AmendableProvider
     resolvers={[
       fluidScale(),
-      colors({ colors: { raddish: '#D41E5C' } }),
+      colors({ colors: { primary: '#0055ff' } }),
       inlineStyles(),
     ]}
   >
@@ -28,7 +28,7 @@ render(
       Size style values will be resolved with fluid scale resolver
     </Box>
 
-    <Box color='raddish'>
+    <Box color='primary'>
       Color style values will be resolved with colors resolver
     </Box>
   </AmendableProvider>,
@@ -56,7 +56,7 @@ The arguments that are passed to `match` and `value` functions:
 
 | Argument                     | Description
 | ---                          | ---
-| `value`                      | The value of the style prop as it's passed initially (`raddish`, `1`, etc.)
+| `value`                      | The value of the style prop as it's passed initially (`primary`, `1`, etc.)
 | `key`                        | The key of the style prop (`border`, `color`, etc.)
 
 ### Match function
