@@ -7,6 +7,7 @@ import GettingStarted from './getting-started.md'
 import Box from './box.md'
 import AmendableProvider from './amendable-provider.md'
 import Faq from './faq.md'
+import ResolversScale from '../../node_modules/@amendable/scale-docs/README.md'
 
 export default [
   {
@@ -27,6 +28,11 @@ export default [
         name: 'Overview',
         slug: 'resolvers/overview',
         component: ResolversOverview,
+      },
+      {
+        name: 'Scale',
+        slug: 'resolvers/scale',
+        component: ResolversScale,
       },
       {
         name: 'Fluid scale',

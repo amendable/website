@@ -65,6 +65,12 @@
   dependencies:
     "@amendable/inline-style-properties" "^0.3.0"
 
+"@amendable/scale-docs@amendable/scale":
+  version "0.0.3"
+  resolved "https://codeload.github.com/amendable/scale/tar.gz/7e459b2edbd2ed2d8e5d26e3ee7d577abba7d8a9"
+  dependencies:
+    is-number "^7.0.0"
+
 "@amendable/scale@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@amendable/scale/-/scale-0.0.3.tgz#c7fea21aedf3442dbda16a4fc83ad99057eda9ee"

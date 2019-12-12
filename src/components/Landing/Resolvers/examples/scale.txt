@@ -8,12 +8,12 @@
 >
   <Box
     padding={1}
-    width={30}
+    width={20}
     height={10}
     backgroundColor='black'
     color='white'
   >
-    This uses a scale of 10, so it has a padding of 10px, width of 300px
+    This uses a scale of 10, so it has a padding of 10px, width of 200px
     and height of 100px.
   </Box>
 </AmendableProvider>

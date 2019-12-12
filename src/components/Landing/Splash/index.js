@@ -10,13 +10,13 @@ export default (props) => (
     paddingBottom={3}
     limited
   >
-    <Box maxWidth={25} textAlignCenter margin='0 auto'>
+    <Box maxWidth={43} textAlignCenter margin='0 auto'>
       <Box
         fontSize={3}
         fontWeight={700}
         paddingBottom={3}
       >
-        Redefine any React component prop easily.
+        Add another layer of abstraction above React props.
       </Box>
     </Box>
 
