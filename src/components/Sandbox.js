@@ -9,6 +9,8 @@ import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
 import scale from '@amendable/scale'
 import breakpoints from '@amendable/breakpoints'
+import spacingAliases from '@amendable/spacing-aliases'
+import expandStyleShorthands from '@amendable/expand-style-shorthands'
 
 const Fallback = ({ error }) => (
   <Box colorRed padding={2} whiteSpacePreWrap fontFamilyMonospace>
@@ -33,6 +35,8 @@ export default props => (
             inlineStyles,
             scale,
             breakpoints,
+            spacingAliases,
+            expandStyleShorthands,
           }}
           {...props}
         />

@@ -2,16 +2,17 @@ import Amendable from './Amendable'
 
 # Overview
 
- <Amendable marginLeft={-.2} /> allows you to redefine any React component
-prop, easily.
+ <Amendable marginLeft={-.2} /> adds another layer of abstraction above React props.
+It allows you to redefine any React component prop, easily.
 
+**Features:**
 - Minimal surface layer (2 new components only), optimized for performance
 - Extensible to virtually any use-case
 - Typescript support ([coming soon](https://github.com/amendable/core/issues/2))
 
 **Use for design systems:**
 - Maintain consistent colors and sizes
-- [Redefine](/docs/resolvers/overview) CSS values and easily use them
+- [Redefine](/docs/resolvers/overview) CSS values and easily re-use them
 - Pass component inline style props without worrying they end up as warnings in DOM
 
 **Use for multi-platform development:**
@@ -21,14 +22,14 @@ prop, easily.
 ```jsx sandbox
 import { render } from 'react-dom'
 import Box, { AmendableProvider } from '@amendable/core'
-import fluidScale from '@amendable/fluid-scale'
+import scale from '@amendable/scale'
 import colors from '@amendable/colors'
 import inlineStyles from '@amendable/inline-styles'
 
 render(
   <AmendableProvider
     resolvers={[
-      fluidScale(),
+      scale({ base: 16 }),
       colors({ colors: { blue: '#0055ff' } }),
       inlineStyles(),
     ]}

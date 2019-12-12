@@ -43,16 +43,3 @@ To define a multi-word color:
 ```
 { 'light-red': '#D45D8A' }
 ```
-
-## List of available resolvers and their usage
-
-Here's a list of currently supported style value resolvers:
-
-| Resolver                                      | Input                                                           | Output
-| -------------                                  | --------                                                        | ---
-| [fluidScale](/docs/resolvers/fluid-scale)     | Values for size props specified without type (`2`, `3.5`, etc.) | Fluid CSS value based on step (`calc(21px + (6 * ((100vw - 320px) / 1280)))`).
-| [colors](/docs/resolvers/colors)              | All values for color properties                                 | Picks by key from `colors` config.
-
-> **Note**
-
-> You can also learn how to create a new resolvers [here](/docs/resolvers/create-new).

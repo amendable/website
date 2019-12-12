@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@amendable/breakpoints-docs@amendable/breakpoints":
+  version "0.0.4"
+  resolved "https://codeload.github.com/amendable/breakpoints/tar.gz/c28aa2093eb065effe21c1cb03c4056020c79d0c"
+  dependencies:
+    "@amendable/hash" "^0.1.0"
+    lodash "^4.17.15"
+
 "@amendable/breakpoints@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@amendable/breakpoints/-/breakpoints-0.0.4.tgz#3349df510595139758497d8cc052d670a64e3e85"
@@ -9,6 +16,10 @@
   dependencies:
     "@amendable/hash" "^0.1.0"
     lodash "^4.17.15"
+
+"@amendable/colors-docs@amendable/colors":
+  version "0.0.7"
+  resolved "https://codeload.github.com/amendable/colors/tar.gz/99e16971d9c7046f45f16d2b5701450637ec6f8a"
 
 "@amendable/colors@^0.0.7":
   version "0.0.7"
@@ -25,6 +36,14 @@
     lodash "^4.17.15"
     stylis "^3.5.4"
 
+"@amendable/expand-style-shorthands-docs@amendable/expand-style-shorthands":
+  version "0.0.2"
+  resolved "https://codeload.github.com/amendable/expand-style-shorthands/tar.gz/cc2145f03663a72fee895fff8db292563c897e74"
+  dependencies:
+    inline-style-expand-shorthand "^1.1.1"
+    is-number "^7.0.0"
+    lodash "^4.17.11"
+
 "@amendable/expand-style-shorthands@^0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@amendable/expand-style-shorthands/-/expand-style-shorthands-0.0.2.tgz#3335a699c7bf048b62a19f07d0c57c5a63f83b97"
@@ -34,6 +53,12 @@
     is-number "^7.0.0"
     lodash "^4.17.11"
 
+"@amendable/fluid-scale-docs@amendable/fluid-scale":
+  version "0.0.3"
+  resolved "https://codeload.github.com/amendable/fluid-scale/tar.gz/62d9a429cf0c6908f377e7d2927aecfebebe7ab4"
+  dependencies:
+    "@amendable/scale" "^0.0.3"
+
 "@amendable/fluid-scale@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@amendable/fluid-scale/-/fluid-scale-0.0.3.tgz#4aa8954109d27abae564eee4ca144aa5781b998f"
@@ -41,12 +66,7 @@
   dependencies:
     "@amendable/scale" "^0.0.3"
 
-"@amendable/hash@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@amendable/hash/-/hash-0.1.0.tgz#f9cd17b9c7182335d91cccd4853c52a3bc3a6c8a"
-  integrity sha512-6GXUpoahD9LWjChqnQ7mVkBnmtsTORzXbj60+CntjsQw4fvEAVEvzHg+Ai6E6crio2+pjo27gUO7nfacvlxXgQ==
-
-"@amendable/hash@^0.1.1":
+"@amendable/hash@^0.1.0", "@amendable/hash@^0.1.1":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@amendable/hash/-/hash-0.1.2.tgz#258711b220a71c54c1d09553a0995e0d2825b868"
   integrity sha512-jY34aPdXnsqnih6qTiV/js15qZTS35YoiJgAABIo+fy+hpwDYy1I6s5pIEaHWQrmC1K0cX4vsKL+edZfUj8k8g==
@@ -58,6 +78,12 @@
   dependencies:
     mem "^5.1.1"
 
+"@amendable/inline-styles-docs@amendable/inline-styles":
+  version "0.0.8"
+  resolved "https://codeload.github.com/amendable/inline-styles/tar.gz/1e6f550959443ee98d37df59874390273230629c"
+  dependencies:
+    "@amendable/inline-style-properties" "^0.3.0"
+
 "@amendable/inline-styles@^0.0.8":
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@amendable/inline-styles/-/inline-styles-0.0.8.tgz#b42198035ccca4611fc1e74b67f6b2fa02c51dc5"
@@ -67,7 +93,7 @@
 
 "@amendable/scale-docs@amendable/scale":
   version "0.0.3"
-  resolved "https://codeload.github.com/amendable/scale/tar.gz/7e459b2edbd2ed2d8e5d26e3ee7d577abba7d8a9"
+  resolved "https://codeload.github.com/amendable/scale/tar.gz/c8a3561f9af23766b0f51acecf781b89945fc9e8"
   dependencies:
     is-number "^7.0.0"
 
@@ -77,6 +103,10 @@
   integrity sha512-ZaKt8N+C93x+88UMmiV3mhFnybDJerBV72oeD8STZMTN9QTNxPV85tEtFCk1TO1mwlBgQfZ9EnlsrNXd9ODBaA==
   dependencies:
     is-number "^7.0.0"
+
+"@amendable/spacing-aliases-docs@amendable/spacing-aliases":
+  version "0.0.3"
+  resolved "https://codeload.github.com/amendable/spacing-aliases/tar.gz/f7bcbe851c51688d158b59b5ac04b945008c9263"
 
 "@amendable/spacing-aliases@^0.0.3":
   version "0.0.3"
@@ -7262,12 +7292,12 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
   integrity sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
 
-lodash@^4.13.1, lodash@^4.17.11, lodash@^4.17.5, lodash@^4.2.0:
+lodash@^4.13.1, lodash@^4.17.5, lodash@^4.2.0:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
-lodash@^4.17.13, lodash@^4.17.15:
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==

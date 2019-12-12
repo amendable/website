@@ -19,6 +19,8 @@ Here's a simple example with
 import React from 'react'
 import { render } from 'react-dom'
 import Box, { AmendableProvider } from '@amendable/core'
+import colors from '@amendable/colors'
+import inlineStyles from '@amendable/inline-styles'
 
 render(
   <AmendableProvider

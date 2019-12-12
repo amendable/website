@@ -1,13 +1,18 @@
 import Overview from './overview.md'
-import ResolversOverview from './resolvers/overview.md'
-import ResolversFluidScale from './resolvers/fluid-scale.md'
-import ResolversColors from './resolvers/colors.md'
-import ResolversCreateNew from './resolvers/create-new.md'
 import GettingStarted from './getting-started.md'
 import Box from './box.md'
 import AmendableProvider from './amendable-provider.md'
 import Faq from './faq.md'
+
+import ResolversOverview from './resolvers/overview.md'
+import ResolversColors from '../../node_modules/@amendable/colors-docs/README.md'
+import ResolversInlineStyles from '../../node_modules/@amendable/inline-styles-docs/README.md'
 import ResolversScale from '../../node_modules/@amendable/scale-docs/README.md'
+import ResolversFluidScale from '../../node_modules/@amendable/fluid-scale-docs/README.md'
+import ResolversBreakpoints from '../../node_modules/@amendable/breakpoints-docs/README.md'
+import ResolversSpacingAliases from '../../node_modules/@amendable/spacing-aliases-docs/README.md'
+import ResolversExpandStyleShorthands from '../../node_modules/@amendable/expand-style-shorthands-docs/README.md'
+import ResolversCreateNew from './resolvers/create-new.md'
 
 export default [
   {
@@ -30,6 +35,16 @@ export default [
         component: ResolversOverview,
       },
       {
+        name: 'Colors',
+        slug: 'resolvers/colors',
+        component: ResolversColors,
+      },
+      {
+        name: 'Inline styles',
+        slug: 'resolvers/inline-styles',
+        component: ResolversInlineStyles,
+      },
+      {
         name: 'Scale',
         slug: 'resolvers/scale',
         component: ResolversScale,
@@ -40,9 +55,19 @@ export default [
         component: ResolversFluidScale,
       },
       {
-        name: 'Colors',
-        slug: 'resolvers/colors',
-        component: ResolversColors,
+        name: 'Breakpoints',
+        slug: 'resolvers/breakpoints',
+        component: ResolversBreakpoints,
+      },
+      {
+        name: 'Spacing aliases',
+        slug: 'resolvers/spacing-aliases',
+        component: ResolversSpacingAliases,
+      },
+      {
+        name: 'Expand style shorthands',
+        slug: 'resolvers/expand-style-shorthands',
+        component: ResolversExpandStyleShorthands,
       },
       {
         name: 'Create a new resolver',
