@@ -10,7 +10,7 @@ import { render } from 'react-dom'
 import Box from '@amendable/core'
 
 render(
-  <Box backgroundColor='black' color='white' padding='20px'>
+  <Box component='span'>
     A container
   </Box>
 )
@@ -18,9 +18,9 @@ render(
 
 ## Props
 
-`Box` has some useful <Amendable />-related props. The rest of the props are
+`Box` has only one special prop (`component`). The rest of the props are
 passed to the underlying `component`.
 
 | Prop                                                                              | Default     | Description                                           |
 | -------------                                                                     | --------    | -----                                                 |
-| `component`                                                                       | `div`       | Any HTML or React component (`div`, `p`, `Link`, etc) |
+| `component`                                                                       | `div`       | Any HTML, React, React Native or a component from other libraries (`div`, `p`, `Link`, etc) |
