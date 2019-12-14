@@ -6,7 +6,9 @@ import Faq from './faq.md'
 
 import ResolversOverview from './resolvers/overview.md'
 import ResolversColors from '../../node_modules/@amendable/colors-docs/README.md'
+import ResolversColorsPolished from '../../node_modules/@amendable/colors-polished-docs/README.md'
 import ResolversInlineStyles from '../../node_modules/@amendable/inline-styles-docs/README.md'
+import ResolversCssStyledComponents from '../../node_modules/@amendable/css-styled-components-docs/README.md'
 import ResolversScale from '../../node_modules/@amendable/scale-docs/README.md'
 import ResolversFluidScale from '../../node_modules/@amendable/fluid-scale-docs/README.md'
 import ResolversBreakpoints from '../../node_modules/@amendable/breakpoints-docs/README.md'
@@ -40,9 +42,19 @@ export default [
         component: ResolversColors,
       },
       {
+        name: 'Colors',
+        slug: 'resolvers/colors-polished',
+        component: ResolversColorsPolished,
+      },
+      {
         name: 'Inline styles',
         slug: 'resolvers/inline-styles',
         component: ResolversInlineStyles,
+      },
+      {
+        name: 'CSS Styled components',
+        slug: 'resolvers/css-styled-components',
+        component: ResolversCssStyledComponents,
       },
       {
         name: 'Scale',

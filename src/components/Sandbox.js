@@ -6,7 +6,9 @@ import ErrorBoundary from 'react-error-boundary'
 import CandourNormalize from 'candour-normalize'
 import fluidScale from '@amendable/fluid-scale'
 import colors from '@amendable/colors'
+import colorsPolished from '@amendable/colors-polished'
 import inlineStyles from '@amendable/inline-styles'
+import cssStyledComponents from '@amendable/cssStyledComponents'
 import scale from '@amendable/scale'
 import breakpoints from '@amendable/breakpoints'
 import spacingAliases from '@amendable/spacing-aliases'
@@ -32,7 +34,9 @@ export default props => (
             CandourNormalize,
             fluidScale,
             colors,
+            colorsPolished,
             inlineStyles,
+            cssStyledComponents,
             scale,
             breakpoints,
             spacingAliases,
