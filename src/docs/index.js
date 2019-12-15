@@ -3,8 +3,9 @@ import GettingStarted from './getting-started.md'
 import Box from './box.md'
 import AmendableProvider from './amendable-provider.md'
 import Faq from './faq.md'
-
 import ResolversOverview from './resolvers/overview.md'
+import ResolversCreateNew from './resolvers/create-new.md'
+
 import ResolversColors from '../../node_modules/@amendable/colors-docs/README.md'
 import ResolversColorsPolished from '../../node_modules/@amendable/colors-polished-docs/README.md'
 import ResolversInlineStyles from '../../node_modules/@amendable/inline-styles-docs/README.md'
@@ -15,7 +16,6 @@ import ResolversFluidScale from '../../node_modules/@amendable/fluid-scale-docs/
 import ResolversBreakpoints from '../../node_modules/@amendable/breakpoints-docs/README.md'
 import ResolversSpacingAliases from '../../node_modules/@amendable/spacing-aliases-docs/README.md'
 import ResolversExpandStyleShorthands from '../../node_modules/@amendable/expand-style-shorthands-docs/README.md'
-import ResolversCreateNew from './resolvers/create-new.md'
 
 export default [
   {
@@ -43,7 +43,7 @@ export default [
         component: ResolversColors,
       },
       {
-        name: 'Colors',
+        name: 'Colors Polished',
         slug: 'resolvers/colors-polished',
         component: ResolversColorsPolished,
       },
