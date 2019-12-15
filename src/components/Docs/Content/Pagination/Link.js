@@ -9,7 +9,7 @@ export default ({
     name,
     slug,
   },
-  ...rest,
+  ...rest
 }) => (
   <Link component={RouterLink} to={`/docs/${slug}`} {...rest}>
     <Text>

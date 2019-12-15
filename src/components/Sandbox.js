@@ -8,7 +8,8 @@ import fluidScale from '@amendable/fluid-scale'
 import colors from '@amendable/colors'
 import colorsPolished from '@amendable/colors-polished'
 import inlineStyles from '@amendable/inline-styles'
-import cssStyledComponents from '@amendable/cssStyledComponents'
+import inlinePropsCss from '@amendable/inline-props-css'
+import cssStyledComponents from '@amendable/css-styled-components'
 import scale from '@amendable/scale'
 import breakpoints from '@amendable/breakpoints'
 import spacingAliases from '@amendable/spacing-aliases'
@@ -36,6 +37,7 @@ export default props => (
             colors,
             colorsPolished,
             inlineStyles,
+            inlinePropsCss,
             cssStyledComponents,
             scale,
             breakpoints,

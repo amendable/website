@@ -8,6 +8,7 @@ import ResolversOverview from './resolvers/overview.md'
 import ResolversColors from '../../node_modules/@amendable/colors-docs/README.md'
 import ResolversColorsPolished from '../../node_modules/@amendable/colors-polished-docs/README.md'
 import ResolversInlineStyles from '../../node_modules/@amendable/inline-styles-docs/README.md'
+import ResolversInlinePropsCss from '../../node_modules/@amendable/inline-props-css-docs/README.md'
 import ResolversCssStyledComponents from '../../node_modules/@amendable/css-styled-components-docs/README.md'
 import ResolversScale from '../../node_modules/@amendable/scale-docs/README.md'
 import ResolversFluidScale from '../../node_modules/@amendable/fluid-scale-docs/README.md'
@@ -50,6 +51,11 @@ export default [
         name: 'Inline styles',
         slug: 'resolvers/inline-styles',
         component: ResolversInlineStyles,
+      },
+      {
+        name: 'Inline props CSS',
+        slug: 'resolvers/inline-props-css',
+        component: ResolversInlinePropsCss,
       },
       {
         name: 'CSS Styled components',

@@ -7,7 +7,7 @@ export default ({
       menu,
     } = {},
   },
-  ...rest,
+  ...rest
 }) => {
   if (!menu) return null
 
