@@ -14,6 +14,7 @@ import ResolversCssStyledComponents from '../../node_modules/@amendable/css-styl
 import ResolversScale from '../../node_modules/@amendable/scale-docs/README.md'
 import ResolversFluidScale from '../../node_modules/@amendable/fluid-scale-docs/README.md'
 import ResolversBreakpoints from '../../node_modules/@amendable/breakpoints-docs/README.md'
+import ResolversBreakpointsCss from '../../node_modules/@amendable/breakpoints-css-docs/README.md'
 import ResolversSpacingAliases from '../../node_modules/@amendable/spacing-aliases-docs/README.md'
 import ResolversExpandStyleShorthands from '../../node_modules/@amendable/expand-style-shorthands-docs/README.md'
 
@@ -76,6 +77,11 @@ export default [
         name: 'Breakpoints',
         slug: 'resolvers/breakpoints',
         component: ResolversBreakpoints,
+      },
+      {
+        name: 'Breakpoints CSS',
+        slug: 'resolvers/breakpoints-css',
+        component: ResolversBreakpointsCss,
       },
       {
         name: 'Spacing aliases',

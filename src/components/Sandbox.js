@@ -12,6 +12,7 @@ import inlinePropsCss from '@amendable/inline-props-css'
 import cssStyledComponents from '@amendable/css-styled-components'
 import scale from '@amendable/scale'
 import breakpoints from '@amendable/breakpoints'
+import breakpointsCss from '@amendable/breakpoints-css'
 import spacingAliases from '@amendable/spacing-aliases'
 import expandStyleShorthands from '@amendable/expand-style-shorthands'
 
@@ -41,6 +42,7 @@ export default props => (
             cssStyledComponents,
             scale,
             breakpoints,
+            breakpointsCss,
             spacingAliases,
             expandStyleShorthands,
           }}
