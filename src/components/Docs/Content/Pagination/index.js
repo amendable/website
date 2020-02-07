@@ -1,6 +1,5 @@
 import React from 'react'
-import Box from '@amendable/core'
-
+import Box from '../../../Box'
 import previous from '../lib/previous'
 import next from '../lib/next'
 import Link from './Link'

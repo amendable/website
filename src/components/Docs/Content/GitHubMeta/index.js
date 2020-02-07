@@ -1,5 +1,5 @@
 import React from 'react'
-import Box from '@amendable/core'
+import Box from '../../../Box'
 import Link from '../../../Link'
 
 import editUrl from './lib/editUrl'

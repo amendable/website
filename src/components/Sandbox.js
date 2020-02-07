@@ -1,6 +1,6 @@
 import React from 'react'
 import CodeSandbox from 'react-code-sandbox'
-import Box, { AmendableProvider } from '@amendable/core'
+import SandboxBox, { AmendableProvider } from '@amendable/core'
 import { Link as RouterLink } from 'react-router-dom'
 import ErrorBoundary from 'react-error-boundary'
 import CandourNormalize from 'candour-normalize'
@@ -15,6 +15,7 @@ import breakpoints from '@amendable/breakpoints'
 import breakpointsCss from '@amendable/breakpoints-css'
 import spacingAliases from '@amendable/spacing-aliases'
 import expandStyleShorthands from '@amendable/expand-style-shorthands'
+import Box from './Box'
 
 const Fallback = ({ error }) => (
   <Box colorRed padding={2} whiteSpacePreWrap fontFamilyMonospace>
@@ -32,7 +33,7 @@ export default props => (
             RouterLink,
             Link: RouterLink,
             AmendableProvider,
-            Box,
+            Box: SandboxBox,
             CandourNormalize,
             fluidScale,
             colors,

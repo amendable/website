@@ -1,8 +1,8 @@
 import React from 'react'
-import Box from '@amendable/core'
 import { AmendableProvider } from '@amendable/core'
 
 import amendableResolvers from '../../../theme/amendableResolvers'
+import Box from '../../Box'
 import Text from '../../Text'
 import Pagination from './Pagination/index'
 import GitHubMeta from './GitHubMeta/index'

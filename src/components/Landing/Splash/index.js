@@ -1,5 +1,5 @@
 import React from 'react'
-import Box from '@amendable/core'
+import Box from '../../Box'
 // import Point from './Point/index'
 import HowItWorks from './HowItWorks'
 

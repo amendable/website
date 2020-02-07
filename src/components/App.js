@@ -1,5 +1,4 @@
 import React from 'react'
-import Box from '@amendable/core'
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,6 +7,7 @@ import {
 } from 'react-router-dom'
 import { ScrollContext } from 'react-router-scroll-4'
 
+import Box from './Box'
 import Meta from './Meta'
 import Header from './Header'
 import Footer from './Footer'

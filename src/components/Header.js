@@ -1,8 +1,8 @@
 import React from 'react'
-import Box from '@amendable/core'
 import {
   Link as RouterLink,
 } from 'react-router-dom'
+import Box from './Box'
 import LogoBlock from './LogoBlock'
 import SmallMenuIcon from './SmallMenu/Icon'
 import Text from './Text'

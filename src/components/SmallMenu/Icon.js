@@ -2,7 +2,7 @@ import React from 'react'
 import {
   Link as RouterLink,
 } from 'react-router-dom'
-import Box from '@amendable/core'
+import Box from '../Box'
 import Link from '../Link'
 
 export default ({

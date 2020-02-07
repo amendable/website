@@ -1,7 +1,6 @@
 import React from 'react'
-import Box from '@amendable/core'
-
 import { ReactComponent as CheckmarkIcon } from '../../../../assets/checkmark.svg'
+import Box from '../../../Box'
 
 export default () => (
   <Box

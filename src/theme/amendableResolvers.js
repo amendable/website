@@ -1,10 +1,10 @@
 import fluidScale from '@amendable/fluid-scale'
 import expandStyleShorthands from '@amendable/expand-style-shorthands'
 import spacingAliases from '@amendable/spacing-aliases'
-import breakpoints from '@amendable/breakpoints'
 import amendableColors from '@amendable/colors'
-import inlineStyles from '@amendable/inline-styles'
 import styleShorthands from '@amendable/style-shorthands'
+import breakpointsCss from '@amendable/breakpoints-css'
+import inlinePropsCss from '@amendable/inline-props-css'
 import colors from './colors'
 import borders from './borders'
 
@@ -60,7 +60,6 @@ const levels = () => ({
 export default [
   amendableModifiers({ modifiers }),
   spacingAliases(),
-  breakpoints(),
   levels(),
   trueToOne(),
   expandStyleShorthands(),
@@ -68,5 +67,6 @@ export default [
   amendableColors({ colors }),
   collection({ match: /border/i, collection: borders }),
   fluidScale(),
-  inlineStyles(),
+  breakpointsCss(),
+  inlinePropsCss(),
 ]

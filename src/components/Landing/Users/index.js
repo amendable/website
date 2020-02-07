@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
-import Box from '@amendable/core'
+import Box from '../../Box'
 import Heading from '../../Heading'
 import Button from '../../Button'
 

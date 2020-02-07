@@ -4,23 +4,23 @@
   "private": true,
   "dependencies": {
     "@amendable/breakpoints": "^0.0.4",
-    "@amendable/breakpoints-css": "^0.1.0",
+    "@amendable/breakpoints-css": "^0.2.0",
     "@amendable/breakpoints-css-docs": "amendable/breakpoints-css",
     "@amendable/breakpoints-docs": "amendable/breakpoints",
-    "@amendable/colors": "^0.0.7",
+    "@amendable/colors": "^0.1.0",
     "@amendable/colors-docs": "amendable/colors",
-    "@amendable/colors-polished": "^0.2.3",
+    "@amendable/colors-polished": "^0.3.0",
     "@amendable/colors-polished-docs": "amendable/colors-polished",
     "@amendable/core": "0.3.0",
     "@amendable/css-styled-components": "^0.1.2",
     "@amendable/css-styled-components-docs": "amendable/css-styled-components",
-    "@amendable/expand-style-shorthands": "^0.0.2",
+    "@amendable/expand-style-shorthands": "^0.0.3",
     "@amendable/expand-style-shorthands-docs": "amendable/expand-style-shorthands",
     "@amendable/fluid-scale": "^0.0.3",
     "@amendable/fluid-scale-docs": "amendable/fluid-scale",
-    "@amendable/inline-props-css": "^0.1.0",
+    "@amendable/inline-props-css": "^0.2.2",
     "@amendable/inline-props-css-docs": "amendable/inline-props-css",
-    "@amendable/inline-style-properties": "^0.4.0",
+    "@amendable/inline-style-properties": "^0.5.0",
     "@amendable/inline-styles": "^0.0.8",
     "@amendable/inline-styles-docs": "amendable/inline-styles",
     "@amendable/scale": "^0.0.3",
@@ -28,14 +28,14 @@
     "@amendable/spacing-aliases": "^0.0.3",
     "@amendable/spacing-aliases-docs": "amendable/spacing-aliases",
     "@amendable/style-shorthands": "^0.0.3",
-    "@babel/core": "^7.7.5",
-    "@babel/preset-react": "^7.7.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
     "@mdx-js/loader": "^0.16.0",
     "@mdx-js/tag": "^0.16.0",
     "candour-normalize": "^1.0.4",
     "libreact": "^2.13.2",
     "mdx": "^0.3.1",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.19.0",
     "radium": "^0.26.0",
     "react": "16.12.0",
     "react-code-sandbox": "^1.0.0",
@@ -46,7 +46,7 @@
     "react-router-scroll-4": "^1.0.0-beta.2",
     "react-scripts": "2.1.1",
     "react-scripts-rewired": "2.1.1",
-    "react-simple-code-editor": "^0.10.0",
+    "react-simple-code-editor": "^0.11.0",
     "styled-components": "^4.4.1"
   },
   "scripts": {
@@ -62,8 +62,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/plugin-transform-react-constant-elements": "^7.7.4",
-    "@babel/preset-env": "^7.7.6",
-    "raw-loader": "^3.1.0"
+    "@babel/plugin-transform-react-constant-elements": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "raw-loader": "^4.0.0"
   }
 }

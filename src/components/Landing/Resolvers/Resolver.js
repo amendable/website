@@ -1,5 +1,5 @@
 import React from 'react'
-import Box from '@amendable/core'
+import Box from '../../Box'
 import Heading from '../../Heading'
 import Text from '../../Text'
 import CodeWithSandbox from '../../CodeWithSandbox'
